@@ -101,6 +101,7 @@
 					events is the main option for calendar.
 					for demo we have added predefined events in json object.
 				*/
+				// AQUI PRECISAMOS TRAZER O VETOR MONTADO VINDO DIRETAMENTE DO BD
 				events: [
 					{
 						title: 'All Day Event',
