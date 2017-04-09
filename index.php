@@ -104,13 +104,94 @@
 				// AQUI PRECISAMOS TRAZER O VETOR MONTADO VINDO DIRETAMENTE DO BD
 				events: [
 					{
-						title: 'All Day Event',
-						start: new Date(y, m, 1)
+						title: 'Física P1',
+                        start: new Date(2017, 4, 24, 8, 0),
+                        allDay: false
 					},
 					{
-						title: 'Long Event',
-						start: new Date(y, m, d-5),
-						end: new Date(y, m, d-2)
+						title: 'Física P2',
+						start: new Date(2017, 6, 5, 8, 0),
+                        allDay: false
+					},
+					{
+						title: 'Física P3',
+						start: new Date(2017, 7, 10, 8, 0),
+                        allDay: false
+					},
+					{
+						title: 'GAAL P1',
+						start: new Date(2017, 6, 10, 14, 0),
+                        allDay: false
+					},
+					{
+						title: 'Noções de Economia P1',
+						start: new Date(2017, 5, 10, 8, 0),
+                        allDay: false
+					},
+					{
+						title: 'Noções de Economia Sub',
+						start: new Date(2017, 7, 10, 8, 0),
+                        allDay: false
+					},
+					{
+						title: 'Cálculo 1 P1',
+						start: new Date(2017, 4, 25, 8, 0),
+                        allDay: false
+					},
+					{
+						title: 'Cálculo 1 P2',
+						start: new Date(2017, 6, 7, 8, 0),
+                        allDay: false
+					},
+					{
+						title: 'Cálculo 1 P3',
+						start: new Date(2017, 7, 19, 8, 0),
+                        allDay: false
+					},
+					{
+						title: 'Ética Seminários',
+						start: new Date(2017, 5, 19, 8, 0),
+                        allDay: false
+					},
+					{
+						title: 'Ética Seminários',
+						start: new Date(2017, 5, 26, 8, 0),
+                        allDay: false
+					},
+					{
+						title: 'Ética P1',
+						start: new Date(2017, 6, 2, 8, 0),
+                        allDay: false
+					},
+					{
+						title: 'Ética Seminários',
+						start: new Date(2017, 6, 30, 8, 0),
+                        allDay: false
+					},
+					{
+						title: 'Ética Seminários',
+						start: new Date(2017, 7, 21, 8, 0),
+                        allDay: false
+					},
+					{
+						title: 'PAC P1',
+						start: new Date(2017, 6, 29, 8, 0),
+                        allDay: false
+					},
+					{
+						title: 'Lógica P1',
+						start: new Date(2017, 5, 12, 8, 0),
+                        allDay: false
+					},
+					{
+						title: 'Lógica P2',
+						start: new Date(2017, 7, 7, 8, 0),
+                        allDay: false
+					},
+					{
+						title: 'Lógica Sub',
+						start: new Date(2017, 7, 14, 8, 0),
+                        allDay: false
 					},
 					{
 						id: 999,
