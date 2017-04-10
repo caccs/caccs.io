@@ -116,7 +116,7 @@
 					},
 					{
 						title: 'Física P3',
-						start: new Date(2017, 5, 10, 8, 0),
+						start: new Date(2017, 6, 10, 8, 0),
                         allDay: false
 					},
 					{
