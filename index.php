@@ -121,7 +121,7 @@
 					},
 					{
 						title: 'GAAL P1',
-						start: new Date(2017, 5, 10, 14, 0),
+						start: new Date(2017, 4, 10, 14, 0),
                         allDay: false
 					},
 					{
