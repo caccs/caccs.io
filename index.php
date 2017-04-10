@@ -103,6 +103,7 @@
 				*/
 				// AQUI PRECISAMOS TRAZER O VETOR MONTADO VINDO DIRETAMENTE DO BD
 				events: [
+                    /* perfil 1 */
 					{
 						title: 'Física P1',
                         start: new Date(2017, 3, 24, 8, 0),
@@ -192,6 +193,47 @@
 						title: 'Lógica Sub',
 						start: new Date(2017, 6, 14, 8, 0),
                         allDay: false
+                    },
+                    /* perfil 3 */
+                    {
+						title: 'INSI P1',
+						start: new Date(2017, 4, 9),
+                    },
+                    {
+						title: 'ED1 P1',
+						start: new Date(2017, 4, 25),
+                    },
+                    {
+						title: 'POO P1',
+						start: new Date(2017, 4, 29),
+                    },
+                    {
+						title: 'INSI P2',
+						start: new Date(2017, 5,27),
+                    },
+                    {
+						title: 'POO P2',
+						start: new Date(2017, 6, 3),
+                    },
+                    {
+						title: 'ACP P1',
+						start: new Date(2017, 6, 4),
+                    },
+                    {
+						title: 'ED1 P2',
+						start: new Date(2017, 6, 6),
+                    },
+                    {
+						title: 'LabArq',
+						start: new Date(2017, 6, 7),
+                    },
+                    {
+						title: 'LabArq',
+						start: new Date(2017, 6, 14),
+                    },
+                    {
+						title: 'ED1 SAC',
+						start: new Date(2017, 6, 13),
                     },
                     {
                         title: 'SeCot',
