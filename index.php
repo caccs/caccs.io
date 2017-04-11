@@ -56,12 +56,12 @@
 					defaultView option used to define which view to show by default,
 					for example we have used agendaWeek.
 				*/
-				defaultView: 'agendaWeek',
+				defaultView: 'month',
 				/*
 					selectable:true will enable user to select datetime slot
 					selectHelper will add helpers for selectable.
 				*/
-				selectable: true,
+				selectable: false,
 				selectHelper: true,
 				/*
 					when user select timeslot this option code will execute.
@@ -96,12 +96,11 @@
 				/*
 					editable: true allow user to edit events.
 				*/
-				editable: true,
+				editable: false,
 				/*
 					events is the main option for calendar.
 					for demo we have added predefined events in json object.
 				*/
-				// AQUI PRECISAMOS TRAZER O VETOR MONTADO VINDO DIRETAMENTE DO BD
 				eventSources: [
 				{
 					events: [
@@ -240,11 +239,6 @@
                     {
 						title: 'ED1 SAC',
 						start: new Date(2017, 6, 13),
-                    },
-                    {
-                        title: 'SeCot',
-                        start: new Date(2017,4, 15, 8, 0),
-                        end: new Date(2017, 4, 18, 18, 0)
                     }
                     /*
 					{
@@ -284,7 +278,16 @@
                     }
                     */],
                     backgroundColor: '#26B99A'
-                }]
+                },
+                {
+                	events: [
+                	{
+                        title: 'SeCot',
+                        start: new Date(2017,4, 15, 8, 0),
+                        end: new Date(2017, 4, 18, 18, 0)
+                    }],
+                    backgroundColor: '#9B59B6'
+            	}]
 			});
 
 			//#3498DB
