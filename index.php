@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>How to add calendar using jQuery and fullCalendar</title>
+  <title>Calendário Geral - Computação UFSCar Sorocaba</title>
 	<!--FullCalendar Dependencies-->
 	<link href='fullcalendar/fullcalendar.css' rel='stylesheet' />
 	<link href='fullcalendar/fullcalendar.print.css' rel='stylesheet' media='print' />
