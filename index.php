@@ -284,7 +284,8 @@
                 	{
                         title: 'SeCot',
                         start: new Date(2017,4, 15, 8, 0),
-                        end: new Date(2017, 4, 18, 18, 0)
+                        end: new Date(2017, 4, 18, 18, 0),
+                        url: 'http://secot.com.br/'
                     }],
                     backgroundColor: '#9B59B6'
             	}]
