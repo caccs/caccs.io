@@ -102,7 +102,9 @@
 					for demo we have added predefined events in json object.
 				*/
 				// AQUI PRECISAMOS TRAZER O VETOR MONTADO VINDO DIRETAMENTE DO BD
-				events: [
+				eventSources: [
+				{
+					events: [
                     /* perfil 1 */
 					{
 						title: 'Física P1',
@@ -193,8 +195,12 @@
 						title: 'Lógica Sub',
 						start: new Date(2017, 6, 14, 8, 0),
                         allDay: false
-                    },
-                    /* perfil 3 */
+                    }],
+                    backgroundColor: '#3498DB'
+                },
+                /* perfil 3 */
+                {
+                	events: [
                     {
 						title: 'INSI P1',
 						start: new Date(2017, 4, 9),
@@ -276,11 +282,17 @@
 						end: new Date(y, m, 29),
 						url: 'http://google.com/'
                     }
-                    */
-
-				]
+                    */],
+                    backgroundColor: '#26B99A'
+                }]
 			});
-			
+
+			//#3498DB
+  			//#26B99A
+  			//#9B59B6
+  			//#BDC3C7
+  			//#E74C3C
+			// Boas cores para serem usadas
 		});
 
 	</script>
