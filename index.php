@@ -227,7 +227,7 @@
                     {
 						title: 'ED1 P2',
 						start: new Date(2017, 6, 6),
-                    },
+                    }, 
                     {
 						title: 'LabArq',
 						start: new Date(2017, 6, 7),
@@ -239,7 +239,32 @@
                     {
 						title: 'ED1 SAC',
 						start: new Date(2017, 6, 13),
+                    },
+                    {
+						title: 'Grafos P1',
+						start: new Date(2017, 4, 8),
+                    },
+                    {
+						title: 'Grafos P2',
+                        start: new Date(2017, 5, 12),
+                    },
+                    {
+						title: 'Grafos P3',
+						start: new Date(2017, 6, 10),
+                    },
+                    {
+						title: 'Complexidade P1',
+						start: new Date(2017, 4, 3),
+                    },
+                    {
+						title: 'Complexidade P2',
+						start: new Date(2017, 5, 7),
+                    },
+                    {
+						title: 'Complexidade P3',
+						start: new Date(2017, 6, 5),
                     }
+                
                     /*
 					{
 						id: 999,
@@ -281,6 +306,7 @@
                 },
                 {
                 	events: [
+                    /* perfil 5 */
                 	{
                         title: 'SeCot',
                         start: new Date(2017,4, 15, 8, 0),
@@ -288,10 +314,119 @@
                         url: 'http://secot.com.br/'
                     }],
                     backgroundColor: '#9B59B6'
-            	}]
+                },
+                {
+                    events: [
+                    {
+                        title: 'ES2 Entrega Intermediária',
+                        start: new Date(2017, 4, 2, 14, 0),
+                        allDay: false
+                    },
+                    {
+                        title: 'Redes P1',
+                        start: new Date(2017, 4, 10, 10, 0),
+                        allDay: false
+                    },
+                    {
+                        title: 'PLP P1',
+                        start: new Date(2017, 4, 11, 8, 0),
+                        allDay: false
+                    },
+                    {
+                        title: 'Web P1',
+                        start: new Date(2017, 4, 12, 8, 0),
+                        allDay: false
+                    },
+                    {
+                        title: 'Compiladores Entrega Fase 2',
+                        start: new Date(2017, 4, 28, 13, 0),
+                        allDay: false
+                    },
+                    {
+                        title: 'Compiladores P1',
+                        start: new Date(2017, 4, 29, 13, 0),
+                        allDay: false
+                    },
+                    {
+                        title: 'LabBD Entrega Intermediária',
+                        start: new Date(2017, 5, 1),
+                        allDay: false
+                    },
+                    {
+                        title: 'PLP P2',
+                        start: new Date(2017, 5, 6, 8, 0),
+                        allDay: false
+                    },
+                    {
+                        title: 'Redes P2',
+                        start: new Date(2017, 5, 14, 10, 0),
+                        allDay: false
+                    },
+                    {
+                        title: 'Web Estudo de Caso 1',
+                        start: new Date(2017, 5, 23, 8, 0),
+                        allDay: false
+                    },
+                    {
+                        title: 'Compiladores Entrega Fase 3',
+                        start: new Date(2017, 5, 26, 13, 0),
+                        allDay: false
+                    },
+                    {
+                        title: 'ES2 P1',
+                        start: new Date(2017, 5, 27, 14, 0),
+                        allDay: false
+                    },
+                    {
+                        title: 'ES2/Web/LabBD Apresentação Final',
+                        start: new Date(2017, 5, 27),
+                        allDay: false
+                    },
+                    {
+                        title: 'Web Estudo de Caso 2',
+                        start: new Date(2017, 5, 27),
+                        allDay: false
+                    },
+                    {
+                        title: 'Compiladores P2',
+                        start: new Date(2017, 6, 3, 13, 0),
+                        allDay: false
+                    },
+                    {
+                        title: 'Web P2',
+                        start: new Date(2017, 6, 7, 8, 0),
+                        allDay: false
+                    },
+                    {
+                        title: 'CG Prova',
+                        start: new Date(2017, 6,27, 14, 0),
+                        allDay: false
+                    },
+                    {
+                        title: 'PLP P3',
+                        start: new Date(2017, 6, 13, 8, 0),
+                        allDay: false
+                    },
+                    {
+                        title: 'LabBD Prova',
+                        start: new Date(2017, 6, 13),
+                        allDay: false
+                    },
+                    {
+                        title: 'Redes P3',
+                        start: new Date(2017, 5, 17, 10),
+                        allDay: false
+                    }
+                ],
+                    backgroundColor: '#3498DB'
+
+
+                }
+
+                
+                ]
 			});
 
-			//#3498DB
   			//#26B99A
   			//#9B59B6
   			//#BDC3C7
