@@ -305,17 +305,7 @@
                     backgroundColor: '#26B99A'
                 },
                 {
-                	events: [
                     /* perfil 5 */
-                	{
-                        title: 'SeCot',
-                        start: new Date(2017,4, 15, 8, 0),
-                        end: new Date(2017, 4, 18, 18, 0),
-                        url: 'http://secot.com.br/'
-                    }],
-                    backgroundColor: '#9B59B6'
-                },
-                {
                     events: [
                     {
                         title: 'ES2 Entrega Intermediária',
@@ -417,11 +407,51 @@
                         start: new Date(2017, 5, 17, 10),
                         allDay: false
                     }
-                ],
+                    ],
                     backgroundColor: '#3498DB'
+                },
+                {
+                	events: [
+                	{
+                        title: 'SeCot',
+                        start: new Date(2017,4, 15, 8, 0),
+                        end: new Date(2017, 4, 18, 18, 0),
+                        url: 'http://secot.com.br/'
+                    }],
+                    backgroundColor: '#9B59B6'
+                },
+                {
+                	events: [
+                   /* optativas */
+                	{
+                        title: 'Aprendizado de Máquina Projeto Final',
+                        start: new Date(2017, 5, 14, 14, 0),
+                        allDay: false,
+                    },
+                	{
+                        title: 'Aprendizado de Máquina Seminário',
+                        start: new Date(2017, 5, 20, 14, 0),
+                        allDay: false,
+                    },
+                	{
+                        title: 'Aprendizado de Máquina Exame',
+                        start: new Date(2017, 5, 14, 14, 0),
+                        allDay: false,
+                    },
+                	{
+                        title: 'Criptografia P1',
+                        start: new Date(2017, 4, 11, 14, 0),
+                        allDay: false,
+                    },
+                	{
+                        title: 'Criptografia P2',
+                        start: new Date(2017, 6, 6, 14, 0),
+                        allDay: false,
+                    }
 
-
-                }
+                ],
+                    backgroundColor: '#BDC3C7'
+                },
 
                 
                 ]
