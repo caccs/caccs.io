@@ -418,23 +418,23 @@
                         end: new Date(2017, 4, 18, 18, 0),
                         url: 'http://secot.com.br/'
                     }],
-                    backgroundColor: '#9B59B6'
+                    backgroundColor: '#BDC3C7'
                 },
                 {
                 	events: [
                    /* optativas */
                 	{
-                        title: 'Aprendizado de Máquina Projeto Final',
+                        title: 'AM Projeto Final',
                         start: new Date(2017, 5, 14, 14, 0),
                         allDay: false,
                     },
                 	{
-                        title: 'Aprendizado de Máquina Seminário',
+                        title: 'AM Seminário',
                         start: new Date(2017, 5, 20, 14, 0),
                         allDay: false,
                     },
                 	{
-                        title: 'Aprendizado de Máquina Exame',
+                        title: 'AM Exame',
                         start: new Date(2017, 5, 14, 14, 0),
                         allDay: false,
                     },
@@ -450,7 +450,7 @@
                     }
 
                 ],
-                    backgroundColor: '#BDC3C7'
+                    backgroundColor: '#9B59B6'
                 },
 
                 
