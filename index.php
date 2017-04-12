@@ -408,7 +408,7 @@
                         allDay: false
                     }
                     ],
-                    backgroundColor: '#3498DB'
+                    backgroundColor: '#E74C3C'
                 },
                 {
                 	events: [
