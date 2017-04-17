@@ -55,7 +55,7 @@ var defaults = {
 		day: 'dddd M/d'
 	},
 	timeFormat: { // for event elements
-		'': 'h(:mm)t' // default
+		'': 'H:mm' // default
 	},
 	
 	// locale
@@ -2728,7 +2728,7 @@ setDefaults({
 	defaultEventMinutes: 120,
 	axisFormat: 'h(:mm)tt',
 	timeFormat: {
-		agenda: 'h:mm{ - h:mm}'
+		agenda: 'h:mm'
 	},
 	dragOpacity: {
 		agenda: .5
