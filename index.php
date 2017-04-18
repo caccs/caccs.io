@@ -482,10 +482,12 @@
 		.background{
 			background-image: url('logo.png');
 			background-size: cover;
+			position: absolute;
 			display: block;
+			height: 900px;
+			width: 900px;
 			left: 0;
 			right: 0;
-			height: auto;
 			z-index: 1;
 			filter: blur(5px);
 			-webkit-filter: blur(5px);
@@ -495,7 +497,7 @@
 <body>
 
 	<!--FullCalendar container div-->
-	<div class='background'></div>
+	<!-- <div class='background'></div> -->
 	<div id='calendar'></div>
 	
 </body>
