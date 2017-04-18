@@ -477,6 +477,12 @@
 		{
 			width: 900px;
 			margin: 0 auto;
+			background-image: url('logo.png');
+			background-size: cover;
+		}
+		#calendar-background{
+			filter: blur(5px);
+			-webkit-filter: blur(5px);
 		}
 	</style>
 </head>
