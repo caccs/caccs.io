@@ -498,15 +498,16 @@
 			left: 0;
 			right: 0;
 			z-index: 1;
-			filter: blur(5px);
-			-webkit-filter: blur(5px);
+            opacity: 0.2;
+			/* filter: blur(5px);
+            -webkit-filter: blur(5px);*/
 		}
 	</style>
 </head>
 <body>
 
 	<!--FullCalendar container div-->
-	<!-- <div class='background'></div> -->
+    <div class='background'></div>
 	<div id='calendar'></div>
 	
 </body>
