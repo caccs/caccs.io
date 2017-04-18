@@ -107,12 +107,12 @@
                     /* perfil 1 */
 					{
 						title: 'Física P1',
-                        start: new Date(2017, 3, 24, 8, 0),
+                        start: new Date(2017, 4, 24, 8, 0),
                         allDay: false
 					},
 					{
 						title: 'Física P2',
-						start: new Date(2017, 4, 5, 8, 0),
+						start: new Date(2017, 5, 5, 8, 0),
                         allDay: false
 					},
 					{
@@ -137,12 +137,12 @@
 					},
 					{
 						title: 'Cálculo 1 P1',
-						start: new Date(2017, 3, 25, 8, 0),
+						start: new Date(2017, 4, 25, 8, 0),
                         allDay: false
 					},
 					{
 						title: 'Cálculo 1 P2',
-						start: new Date(2017, 4, 7, 8, 0),
+						start: new Date(2017, 5, 7, 8, 0),
                         allDay: false
 					},
 					{
@@ -229,9 +229,18 @@
 						start: new Date(2017, 6, 6),
                     }, 
                     {
-						title: 'LabArq',
-						start: new Date(2017, 6, 7),
+						title: 'Arq P1',
+						start: new Date(2017, 3, 20),
                     },
+                    {
+						title: 'Arq P2',
+						start: new Date(2017, 5, 1),
+                    },
+                    {
+						title: 'Arq P3',
+						start: new Date(2017, 6, 6),
+                    },
+                        
                     {
 						title: 'LabArq',
 						start: new Date(2017, 6, 14),
@@ -389,7 +398,7 @@
                     },
                     {
                         title: 'CG Prova',
-                        start: new Date(2017, 6,27, 14, 0),
+                        start: new Date(2017, 6, 7, 14, 0),
                         allDay: false
                     },
                     {
@@ -404,7 +413,7 @@
                     },
                     {
                         title: 'Redes P3',
-                        start: new Date(2017, 5, 17, 10),
+                        start: new Date(2017, 6, 17, 10),
                         allDay: false
                     }
                     ],
