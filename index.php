@@ -107,17 +107,17 @@
                     /* perfil 1 */
 					{
 						title: 'Física P1',
-                        start: new Date(2017, 4, 24, 8, 0),
+                        start: new Date(2017, 4, 24, 14, 0),
                         allDay: false
 					},
 					{
 						title: 'Física P2',
-						start: new Date(2017, 5, 5, 8, 0),
+						start: new Date(2017, 5, 5, 14, 0),
                         allDay: false
 					},
 					{
 						title: 'Física P3',
-						start: new Date(2017, 6, 10, 8, 0),
+						start: new Date(2017, 6, 10, 14, 0),
                         allDay: false
 					},
 					{
@@ -127,12 +127,12 @@
 					},
 					{
 						title: 'Noções de Economia P1',
-						start: new Date(2017, 4, 10, 8, 0),
+						start: new Date(2017, 4, 10, 10, 0),
                         allDay: false
 					},
 					{
 						title: 'Noções de Economia Sub',
-						start: new Date(2017, 6, 10, 8, 0),
+						start: new Date(2017, 6, 10, 10, 0),
                         allDay: false
 					},
 					{
@@ -152,32 +152,32 @@
 					},
 					{
 						title: 'Ética Seminários',
-						start: new Date(2017, 4, 19, 8, 0),
+						start: new Date(2017, 4, 19, 14, 0),
                         allDay: false
 					},
 					{
 						title: 'Ética Seminários',
-						start: new Date(2017, 4, 26, 8, 0),
+						start: new Date(2017, 4, 26, 14, 0),
                         allDay: false
 					},
 					{
 						title: 'Ética P1',
-						start: new Date(2017, 5, 2, 8, 0),
+						start: new Date(2017, 5, 2, 14, 0),
                         allDay: false
 					},
 					{
 						title: 'Ética Seminários',
-						start: new Date(2017, 5, 30, 8, 0),
+						start: new Date(2017, 5, 30, 14, 0),
                         allDay: false
 					},
 					{
 						title: 'Ética Seminários',
-						start: new Date(2017, 6, 21, 8, 0),
+						start: new Date(2017, 6, 21, 14, 0),
                         allDay: false
 					},
 					{
 						title: 'PAC P1',
-						start: new Date(2017, 5, 29, 8, 0),
+						start: new Date(2017, 5, 29, 14, 0),
                         allDay: false
 					},
 					{
@@ -195,83 +195,102 @@
 						start: new Date(2017, 6, 14, 8, 0),
                         allDay: false
                     }],
-                    backgroundColor: '#3498DB'
+                    backgroundColor: '#4d9de0',
+                    borderColor: '#ffffff'
                 },
                 /* perfil 3 */
                 {
                 	events: [
                     {
 						title: 'INSI P1',
-						start: new Date(2017, 4, 9),
+						start: new Date(2017, 4, 9, 8, 0),
+						allDay: false
                     },
                     {
 						title: 'ED1 P1',
-						start: new Date(2017, 4, 25),
+						start: new Date(2017, 4, 25, 14, 0),
+						allDay: false
                     },
                     {
 						title: 'POO P1',
-						start: new Date(2017, 4, 29),
+						start: new Date(2017, 4, 29, 14, 0),
+						allDay: false
                     },
                     {
 						title: 'INSI P2',
-						start: new Date(2017, 5,27),
+						start: new Date(2017, 5, 27, 8, 0),
+						allDay: false
                     },
                     {
 						title: 'POO P2',
-						start: new Date(2017, 6, 3),
+						start: new Date(2017, 6, 3, 14, 0),
+						allDay: false
                     },
                     {
 						title: 'ACP P1',
-						start: new Date(2017, 6, 4),
+						start: new Date(2017, 6, 4, 14, 0),
+						allDay: false
                     },
                     {
 						title: 'ED1 P2',
-						start: new Date(2017, 6, 6),
+						start: new Date(2017, 6, 6, 14, 0),
+						allDay: false
                     }, 
                     {
 						title: 'Arq P1',
-						start: new Date(2017, 3, 20),
+						start: new Date(2017, 3, 20, 8, 0),
+						allDay: false
                     },
                     {
 						title: 'Arq P2',
-						start: new Date(2017, 5, 1),
+						start: new Date(2017, 5, 1, 8, 0),
+						allDay: false
                     },
                     {
 						title: 'Arq P3',
-						start: new Date(2017, 6, 6),
+						start: new Date(2017, 6, 6, 8, 0),
+						allDay: false
                     },
                         
                     {
 						title: 'LabArq',
-						start: new Date(2017, 6, 14),
+						start: new Date(2017, 6, 14, 8, 0),
+						allDay: false
                     },
                     {
 						title: 'ED1 SAC',
-						start: new Date(2017, 6, 13),
+						start: new Date(2017, 6, 13, 14, 0),
+						allDay: false
                     },
                     {
 						title: 'Grafos P1',
-						start: new Date(2017, 4, 8),
+						start: new Date(2017, 4, 8, 8, 0),
+						allDay: false
                     },
                     {
 						title: 'Grafos P2',
-                        start: new Date(2017, 5, 12),
+                        start: new Date(2017, 5, 12, 8, 0),
+						allDay: false
                     },
                     {
 						title: 'Grafos P3',
-						start: new Date(2017, 6, 10),
+						start: new Date(2017, 6, 10, 8, 0),
+						allDay: false
                     },
                     {
 						title: 'Complexidade P1',
-						start: new Date(2017, 4, 3),
+						start: new Date(2017, 4, 3, 8, 0),
+						allDay: false
                     },
                     {
 						title: 'Complexidade P2',
-						start: new Date(2017, 5, 7),
+						start: new Date(2017, 5, 7, 8, 0),
+						allDay: false
                     },
                     {
 						title: 'Complexidade P3',
-						start: new Date(2017, 6, 5),
+						start: new Date(2017, 6, 5, 8, 0),
+						allDay: false
                     }
                 
                     /*
@@ -311,7 +330,8 @@
 						url: 'http://google.com/'
                     }
                     */],
-                    backgroundColor: '#26B99A'
+                    backgroundColor: '#e15554',
+                    borderColor: '#ffffff'
                 },
                 {
                     /* perfil 5 */
@@ -348,7 +368,7 @@
                     },
                     {
                         title: 'LabBD Entrega Intermediária',
-                        start: new Date(2017, 5, 1),
+                        start: new Date(2017, 5, 1, 16, 0),
                         allDay: false
                     },
                     {
@@ -379,11 +399,10 @@
                     {
                         title: 'ES2/Web/LabBD Apresentação Final',
                         start: new Date(2017, 5, 27),
-                        allDay: false
                     },
                     {
                         title: 'Web Estudo de Caso 2',
-                        start: new Date(2017, 5, 27),
+                        start: new Date(2017, 5, 27, 8, 0),
                         allDay: false
                     },
                     {
@@ -408,7 +427,7 @@
                     },
                     {
                         title: 'LabBD Prova',
-                        start: new Date(2017, 6, 13),
+                        start: new Date(2017, 6, 13, 16, 0),
                         allDay: false
                     },
                     {
@@ -417,7 +436,8 @@
                         allDay: false
                     }
                     ],
-                    backgroundColor: '#E74C3C'
+                    backgroundColor: '#e1bc29',
+                    borderColor: '#ffffff'
                 },
                 {
                 	events: [
@@ -426,8 +446,15 @@
                         start: new Date(2017,4, 15, 8, 0),
                         end: new Date(2017, 4, 18, 18, 0),
                         url: 'http://secot.com.br/'
+                    },
+                	{
+                        title: 'Semana dos Estudos',
+                        start: new Date(2017, 4, 1, 8, 0),
+                        end: new Date(2017, 4, 5, 20, 0),
                     }],
-                    backgroundColor: '#BDC3C7'
+                    backgroundColor: '#7768ae',
+                    borderColor: '#ffffff'
+
                 },
                 {
                 	events: [
@@ -456,10 +483,21 @@
                         title: 'Criptografia P2',
                         start: new Date(2017, 6, 6, 14, 0),
                         allDay: false,
-                    }
+                    },
+                	{
+                        title: 'AD P1',
+                        start: new Date(2017, 4, 8, 14, 0),
+                        allDay: false,
+                    },
+                	{
+                        title: 'AD P2',
+                        start: new Date(2017, 6, 3, 14, 0),
+                        allDay: false,
+                    },
 
                 ],
-                    backgroundColor: '#9B59B6'
+                    backgroundColor: '#3bb273',
+                    borderColor: '#ffffff'
                 },
 
                 
@@ -506,6 +544,7 @@
 <body>
 
 	<!--FullCalendar container div-->
+    <!--TODO: centralizar o backgroud ou mudar para footer -->
     <!--<div class='background'></div>-->
 	<div id='calendar'></div>
 	
