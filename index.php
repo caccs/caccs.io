@@ -515,7 +515,14 @@
 	<style type="text/css">
 		body
 		{
-			margin-top: 40px;
+			margin-top: 20px;
+			text-align: center;
+			font-size: 14px;
+			font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+		}
+		footer
+		{
+            margin-top: 40px;
 			text-align: center;
 			font-size: 14px;
 			font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
@@ -549,4 +556,7 @@
 	<div id='calendar'></div>
 	
 </body>
+<footer>
+    CACCS 2017 &reg
+</footer> 
 </html>
