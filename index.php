@@ -451,6 +451,13 @@
                         title: 'Semana dos Estudos',
                         start: new Date(2017, 4, 1, 8, 0),
                         end: new Date(2017, 4, 5, 20, 0),
+                    },
+                    {
+                    	title: 'CryptoRave',
+                    	start: new Date(2017, 4, 5),
+                    	end: new Date(2017, 4, 6),
+                    	allDay: true,
+                    	url: 'https://cryptorave.org/'
                     }],
                     backgroundColor: '#7768ae',
                     borderColor: '#ffffff'
