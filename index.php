@@ -107,7 +107,7 @@
                     /* perfil 1 */
 					{
 						title: 'Física P1',
-                        start: new Date(2017, 4, 24, 14, 0),
+                        start: new Date(2017, 3, 24, 14, 0),
                         allDay: false
 					},
 					{
@@ -137,7 +137,7 @@
 					},
 					{
 						title: 'Cálculo 1 P1',
-						start: new Date(2017, 4, 25, 8, 0),
+						start: new Date(2017, 3, 25, 8, 0),
                         allDay: false
 					},
 					{
