@@ -131,6 +131,11 @@
                         allDay: false
 					},
 					{
+						title: 'Noções de Economia P2',
+						start: new Date(2017, 6, 5, 10, 0),
+                        allDay: false
+					},
+					{
 						title: 'Noções de Economia Sub',
 						start: new Date(2017, 6, 10, 10, 0),
                         allDay: false
@@ -178,6 +183,11 @@
 					{
 						title: 'PAC P1',
 						start: new Date(2017, 5, 29, 14, 0),
+                        allDay: false
+					},
+					{
+						title: 'PAC Entrega de Relatório',
+						start: new Date(2017, 4, 18, 14, 0),
                         allDay: false
 					},
 					{
