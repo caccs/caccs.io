@@ -383,7 +383,7 @@
                     },
                     {
                         title: 'PLP P2',
-                        start: new Date(2017, 5, 6, 8, 0),
+                        start: new Date(2017, 6, 6, 8, 0),
                         allDay: false
                     },
                     {
@@ -412,7 +412,7 @@
                     },
                     {
                         title: 'Web Estudo de Caso 2',
-                        start: new Date(2017, 5, 27, 8, 0),
+                        start: new Date(2017, 5, 30, 8, 0),
                         allDay: false
                     },
                     {
