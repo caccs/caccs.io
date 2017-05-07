@@ -106,6 +106,16 @@
 					events: [
                     /* perfil 1 */
 					{
+						title: 'Alg 1 P1',
+                        start: new Date(2017, 4, 22, 14, 0),
+                        allDay: false
+					},
+					{
+						title: 'Alg 1 P2',
+                        start: new Date(2017, 6, 17, 14, 0),
+                        allDay: false
+					},
+					{
 						title: 'Física P1',
                         start: new Date(2017, 3, 24, 14, 0),
                         allDay: false
