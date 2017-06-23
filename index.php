@@ -408,7 +408,7 @@
                     },
                     {
                         title: 'Compiladores Entrega Fase 3',
-                        start: new Date(2017, 5, 26, 13, 0),
+                        start: new Date(2017, 6, 7, 13, 0),
                         allDay: false
                     },
                     {
@@ -419,11 +419,6 @@
                     {
                         title: 'ES2/Web/LabBD Apresentação Final',
                         start: new Date(2017, 5, 27),
-                    },
-                    {
-                        title: 'Web Estudo de Caso 2',
-                        start: new Date(2017, 5, 30, 8, 0),
-                        allDay: false
                     },
                     {
                         title: 'Compiladores P2',
