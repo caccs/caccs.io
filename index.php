@@ -408,7 +408,7 @@
                     },
                     {
                         title: 'Compiladores Entrega Fase 3',
-                        start: new Date(2017, 6, 7, 13, 0),
+                        start: new Date(2017, 6, 5, 13, 0),
                         allDay: false
                     },
                     {
