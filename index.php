@@ -2,6 +2,10 @@
 <html>
 <head>
   <title>Calendário Geral - Computação UFSCar Sorocaba</title>
+	<!--favicon-->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	
 	<!--FullCalendar Dependencies-->
 	<link href='fullcalendar/fullcalendar.css' rel='stylesheet' />
 	<link href='fullcalendar/fullcalendar.print.css' rel='stylesheet' media='print' />
