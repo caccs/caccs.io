@@ -23,4 +23,4 @@ http://caccs-lendario.herokuapp.com/
 ### Atividades:
 |Atividade							|Versão      |Data	    |
 | ----------------------------------|:----------:|:------------:|
-|	~~Ported code to Rails~~			| ~~1.0~~ |		~~09/02/2018~~	|
+|	Ported code to Rails			| 1.0 |		09/02/2018	|
