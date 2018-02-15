@@ -2223,3 +2223,930 @@ Processing by CalendarController#calendar as HTML
 Completed 200 OK in 34ms (Views: 33.3ms)
 
 
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 14:56:16 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_rails_default.html.erb (222.1ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 396ms (Views: 233.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-15 14:56:21 -0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_rails_default.html.erb (25.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 41ms (Views: 39.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-15 14:56:30 -0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_rails_default.html.erb (24.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 31ms (Views: 29.6ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 14:56:31 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_rails_default.html.erb (22.6ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 31ms (Views: 29.7ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 14:56:43 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (8.3ms)
+  Rendered layouts/_rails_default.html.erb (23.4ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 39ms (Views: 37.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-15 14:56:44 -0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_rails_default.html.erb (26.3ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 33.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-15 14:57:18 -0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_rails_default.html.erb (27.0ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 33.4ms)
+
+
+Started GET "/Calendar" for 127.0.0.1 at 2018-02-15 14:57:19 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/Calendar"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/Calendar" for 127.0.0.1 at 2018-02-15 15:00:23 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/Calendar"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-02-15 15:00:27 -0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_rails_default.html.erb (41.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 51ms (Views: 49.2ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:00:28 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_rails_default.html.erb (29.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 39ms (Views: 38.0ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:02:13 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_rails_default.html.erb (29.5ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 36.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-15 15:06:46 -0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_rails_default.html.erb (38.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 44.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-15 15:07:57 -0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_rails_default.html.erb (22.8ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 30ms (Views: 28.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-15 15:07:59 -0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_rails_default.html.erb (26.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 32.5ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:08:01 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_rails_default.html.erb (24.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 32.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-15 15:08:04 -0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_rails_default.html.erb (31.1ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 40ms (Views: 39.3ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:08:05 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_rails_default.html.erb (34.3ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 45ms (Views: 43.9ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:09:00 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (24.2ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 31ms (Views: 30.3ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:09:10 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (24.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 31.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-15 15:09:13 -0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_rails_default.html.erb (28.3ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 38ms (Views: 37.2ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:09:15 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_rails_default.html.erb (29.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 40ms (Views: 38.8ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:09:16 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (24.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 32.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-15 15:09:19 -0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_rails_default.html.erb (35.0ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 43ms (Views: 42.2ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:09:32 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_rails_default.html.erb (25.8ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 34.8ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:09:33 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_rails_default.html.erb (26.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 32.8ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:09:35 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_rails_default.html.erb (32.2ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 41ms (Views: 40.5ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:09:36 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_rails_default.html.erb (31.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 41ms (Views: 39.6ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:09:37 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_rails_default.html.erb (25.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 33.4ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:09:37 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_rails_default.html.erb (30.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 40ms (Views: 38.5ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:09:38 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_rails_default.html.erb (25.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 35ms (Views: 33.6ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:09:39 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_rails_default.html.erb (29.7ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 38ms (Views: 37.3ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:09:40 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (30.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 39ms (Views: 37.5ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:09:42 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_rails_default.html.erb (29.4ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 39ms (Views: 38.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-15 15:09:44 -0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_rails_default.html.erb (40.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 48ms (Views: 47.3ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:09:45 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_rails_default.html.erb (26.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 34.4ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:09:47 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_rails_default.html.erb (32.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 42ms (Views: 40.5ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:09:47 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_rails_default.html.erb (24.6ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 32.2ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:10:00 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_rails_default.html.erb (27.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 35.9ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:11:53 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_rails_default.html.erb (28.8ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 39ms (Views: 37.9ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:11:54 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_rails_default.html.erb (24.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 32.9ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:11:54 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_rails_default.html.erb (27.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 34.8ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:11:55 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_rails_default.html.erb (33.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 43ms (Views: 41.7ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:12:49 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (165.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 373ms (Views: 173.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-15 15:12:52 -0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_rails_default.html.erb (28.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 34.3ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:12:53 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_rails_default.html.erb (56.7ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 66ms (Views: 64.9ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:12:55 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (44.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 54ms (Views: 52.6ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:13:26 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (30.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 39ms (Views: 37.5ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:13:28 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (24.5ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 30.9ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:13:29 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_rails_default.html.erb (24.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 31ms (Views: 30.1ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:13:29 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (33.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 40ms (Views: 39.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-15 15:13:30 -0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_rails_default.html.erb (26.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 32.0ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:13:31 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_rails_default.html.erb (33.4ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 43ms (Views: 41.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-15 15:13:42 -0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_rails_default.html.erb (227.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 355ms (Views: 234.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-15 15:13:45 -0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_rails_default.html.erb (29.8ms)
+  Rendered layouts/_shim.html.erb (0.7ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 38ms (Views: 36.8ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:13:46 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_rails_default.html.erb (41.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 54ms (Views: 51.9ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:13:48 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (23.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 31ms (Views: 29.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-15 15:15:31 -0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_rails_default.html.erb (31.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 39ms (Views: 37.9ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:15:32 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_rails_default.html.erb (36.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 47ms (Views: 45.4ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:15:34 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_rails_default.html.erb (39.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 50ms (Views: 48.6ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:29:49 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_rails_default.html.erb (167.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 380ms (Views: 175.5ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:33:43 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (43.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 51ms (Views: 49.7ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:33:44 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_rails_default.html.erb (31.0ms)
+  Rendered layouts/_shim.html.erb (0.7ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 40ms (Views: 39.2ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:33:44 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_rails_default.html.erb (41.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 56ms (Views: 50.0ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:33:55 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_rails_default.html.erb (40.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 54ms (Views: 51.3ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:34:16 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_rails_default.html.erb (22.7ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 33.9ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:34:17 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_rails_default.html.erb (26.1ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 35.2ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:34:18 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_rails_default.html.erb (24.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 31ms (Views: 30.0ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:34:27 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_rails_default.html.erb (28.5ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 38ms (Views: 36.7ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:57:12 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (29.3ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 37ms (Views: 35.5ms)
+
+
+Started GET "/img/logo_invertido.png" for 127.0.0.1 at 2018-02-15 15:57:12 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/img/logo_invertido.png"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:57:49 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_rails_default.html.erb (22.3ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 30.4ms)
+
+
+Started GET "/img/logo_invertido.png" for 127.0.0.1 at 2018-02-15 15:57:49 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/img/logo_invertido.png"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:58:25 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (30.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 38ms (Views: 36.8ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-15 15:58:40 -0200
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_rails_default.html.erb (25.8ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 33.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-15 16:14:52 -0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_rails_default.html.erb (163.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 340ms (Views: 170.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-15 16:20:25 -0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_rails_default.html.erb (29.5ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 40ms (Views: 38.5ms)
+
+
