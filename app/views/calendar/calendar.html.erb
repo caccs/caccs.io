@@ -1,21 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Calendário Geral - Computação UFSCar Sorocaba</title>
-	<!--favicon-->
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="/favicon.ico" type="image/x-icon">
-	
-	<!--FullCalendar Dependencies-->
-	<link href='fullcalendar/fullcalendar.css' rel='stylesheet' />
-	<link href='fullcalendar/fullcalendar.print.css' rel='stylesheet' media='print' />
-	
-	<!--jQuery-->
-	<script src='jquery/jquery-1.9.1.min.js'></script>
-	<script src='jquery/jquery-ui-1.10.2.custom.min.js'></script>
-	
+<% provide(:title, "Calendário Geral") %>
+<% content_for :scripts do %>
 	<!--FullCalendar-->
-	<script src='fullcalendar/fullcalendar.min.js'></script>
+	<% javascript_include_tag "/calendar/fullcalendar.min.js" %>
 	<script type="text/javascript">
 		
 		/*
@@ -573,16 +559,6 @@
             opacity: 0.2;
 		}
 	</style>
-</head>
-<body>
+<% end %>
 
-	<!--FullCalendar container div-->
-    <!--TODO: centralizar o backgroud ou mudar para footer -->
-    <!--<div class='background'></div>-->
-	<div id='calendar'></div>
-	
-</body>
-<footer>
-    CACCS 2017 &reg
-</footer> 
-</html>
+<div id='calendar'></div>
