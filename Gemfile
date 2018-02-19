@@ -22,6 +22,7 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'rspec-rails', '~> 3.7'
   gem 'rspec', '~> 3.7'
+  gem 'rspec_junit_formatter'
 end
 
 group :development do
