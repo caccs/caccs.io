@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/caccs/caccs.io/tree/master.svg?style=svg)](https://circleci.com/gh/caccs/caccs.io/tree/master)
 ## CACCS.io
 ---
 Projeto do site do Centro Acadêmico Pata do Bisão com calendário de datas de atividades universitárias e formulários para avaliação de disciplinas. Este projeto têm como intuito concentrar as informações de todas as atividades de interesse dos alunos.
