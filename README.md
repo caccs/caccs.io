@@ -25,3 +25,4 @@ http://caccs-lendario.herokuapp.com/
 |Atividade							|Versão      |Data	    |
 | ----------------------------------|:----------:|:------------:|
 |	Ported code to Rails			| 1.0 |		09/02/2018	|
+|	Added RSpecs and CircleCI config files			| 1.1 |		19/02/2018	|
