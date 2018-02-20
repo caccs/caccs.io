@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/caccs/caccs.io/tree/master.svg?style=svg&circle-token=0b5547b6753ce038a5bae5eede1654db6260ceb8)](https://circleci.com/gh/caccs/caccs.io/tree/master)
 ## CACCS.io
 ---
 Projeto do site do Centro Acadêmico Pata do Bisão com calendário de datas de atividades universitárias e formulários para avaliação de disciplinas. Este projeto têm como intuito concentrar as informações de todas as atividades de interesse dos alunos.
@@ -24,3 +25,4 @@ http://caccs-lendario.herokuapp.com/
 |Atividade							|Versão      |Data	    |
 | ----------------------------------|:----------:|:------------:|
 |	Ported code to Rails			| 1.0 |		09/02/2018	|
+|	Added RSpecs and CircleCI config files			| 1.1 |		19/02/2018	|
