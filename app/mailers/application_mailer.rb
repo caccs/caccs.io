@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default to: 'grr.pride@gmail.com'
+  default to: 'ufscar.caccs@gmail.com'
   layout 'mailer'
 end

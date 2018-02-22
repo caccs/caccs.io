@@ -33,6 +33,14 @@ Rails.application.configure do
   # The :test delivery method accumulates sent emails in the
   # ActionMailer::Base.deliveries array.
   config.action_mailer.delivery_method = :test
+  config.action_mailer.smtp_settings = {
+   :address              => "in-v3.mailjet.com",
+   :port                 => 587,
+   :user_name            => 'f0587d2ecd8113eca24831448b2e634d',
+   :password             => '9841bc1a7de85f33412e74ac19eb7656',
+   :authentication       => "plain",
+   :enable_starttls_auto => true
+  }
 
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr

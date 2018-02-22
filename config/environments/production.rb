@@ -64,10 +64,10 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :smtp
   # SMTP settings for gmail
   config.action_mailer.smtp_settings = {
-   :address              => "smtp.gmail.com",
+   :address              => "in-v3.mailjet.com",
    :port                 => 587,
-   :user_name            => ENV['gmail_username'],
-   :password             => ENV['gmail_password'],
+   :user_name            => 'f0587d2ecd8113eca24831448b2e634d',
+   :password             => '9841bc1a7de85f33412e74ac19eb7656',
    :authentication       => "plain",
    :enable_starttls_auto => true
   }

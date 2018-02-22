@@ -7710,3 +7710,936 @@ Processing by PagesController#contact as HTML
 Completed 200 OK in 52ms (Views: 48.1ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-02-22 15:00:29 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (286.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 489ms (Views: 299.2ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 15:00:39 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (6.9ms)
+  Rendered pages/contact.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_rails_default.html.erb (58.8ms)
+  Rendered layouts/_shim.html.erb (0.7ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_show.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 76ms (Views: 74.9ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 15:01:14 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (2.5ms)
+  Rendered pages/contact.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_rails_default.html.erb (49.5ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 62ms (Views: 60.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 15:01:19 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (30.0ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 38ms (Views: 37.5ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-22 15:06:16 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_rails_default.html.erb (29.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 40ms (Views: 39.1ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-22 15:06:18 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_rails_default.html.erb (51.4ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_show.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 67ms (Views: 64.8ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-22 15:06:22 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (30.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 40ms (Views: 39.0ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-22 15:06:57 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_rails_default.html.erb (30.5ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 39ms (Views: 38.3ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-22 15:07:05 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_rails_default.html.erb (26.8ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 35.1ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-22 15:07:07 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (35.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 44ms (Views: 43.1ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-22 15:07:09 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (26.5ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 33.7ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-22 15:07:12 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (34.1ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 43ms (Views: 42.3ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-22 15:07:12 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_rails_default.html.erb (31.5ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 40ms (Views: 38.4ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-22 15:07:13 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_rails_default.html.erb (31.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 41ms (Views: 40.2ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-22 15:07:14 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_rails_default.html.erb (41.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 52ms (Views: 50.7ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-22 15:07:23 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_rails_default.html.erb (37.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 47ms (Views: 46.1ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-22 15:07:25 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_rails_default.html.erb (41.3ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_show.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 53ms (Views: 51.7ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-22 15:07:26 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_rails_default.html.erb (45.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_show.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (1.2ms)
+Completed 200 OK in 59ms (Views: 57.4ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-22 15:08:27 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_rails_default.html.erb (27.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 34.1ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-22 15:08:29 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_rails_default.html.erb (35.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 43.7ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-22 15:08:30 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (34.0ms)
+  Rendered layouts/_shim.html.erb (0.7ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 44ms (Views: 42.9ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-22 15:08:31 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_rails_default.html.erb (39.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 50ms (Views: 48.8ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-22 15:08:31 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_rails_default.html.erb (30.3ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 40ms (Views: 39.3ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-22 15:08:32 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (30.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 38ms (Views: 37.5ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-22 15:08:34 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_rails_default.html.erb (28.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 43ms (Views: 41.8ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-22 15:08:35 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_rails_default.html.erb (64.0ms)
+  Rendered layouts/_shim.html.erb (0.8ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 75ms (Views: 73.7ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-22 15:08:36 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_rails_default.html.erb (53.8ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 68ms (Views: 66.4ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-22 15:08:37 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (26.5ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 33.8ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-22 15:11:27 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_rails_default.html.erb (31.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 44ms (Views: 43.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 15:11:28 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_rails_default.html.erb (30.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 36.6ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-22 15:11:29 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_rails_default.html.erb (31.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 41ms (Views: 39.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 15:11:29 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_rails_default.html.erb (35.6ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_show.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 44ms (Views: 42.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 15:16:24 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_rails_default.html.erb (25.6ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 31.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 15:16:25 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_rails_default.html.erb (35.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 44ms (Views: 43.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 15:16:26 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_rails_default.html.erb (34.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_show.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 44ms (Views: 42.6ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-02-22 15:20:15 -0300
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_rails_default.html.erb (56.4ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 65ms (Views: 64.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 15:20:17 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_rails_default.html.erb (50.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 59ms (Views: 58.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 15:21:41 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.2ms)
+  Rendered pages/contact.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_rails_default.html.erb (26.7ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 34.8ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 15:21:45 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"l9SGLH6BAb1ZxmlNgEGybtW82iuc248rD1rVu11UcrfB6pc86s31C/48afPcmkeVlmsrnruHGVKR1YdUnC+b0g==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (0.7ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.5ms)
+EmailMailer#contact_email: processed outbound mail in 186.3ms
+Sent mail to ufscar.caccs@gmail.com (6.6ms)
+Date: Thu, 22 Feb 2018 15:21:46 -0300
+From: aa@josta.com
+To: ufscar.caccs@gmail.com
+Message-ID: <5a8f0a3a26ba7_4b792aaf9fca8c0c464f6@josta-pc.mail>
+Subject: Contato: aa
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a8f0a3a258bc_4b792aaf9fca8c0c4634f";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a8f0a3a258bc_4b792aaf9fca8c0c4634f
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=C3=A1. aa entrou em contato via p=C3=A1gina de Contato do Centro Acad=C3=
+=AAmico.
+
+A mensagem deixada foi:
+
+"aa"
+
+Para responder, envie um email para "aa@josta.com"
+
+----==_mimepart_5a8f0a3a258bc_4b792aaf9fca8c0c4634f
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+  </head>
+  <body>
+    <h1>Ol=C3=A1</h1>
+    <p>
+      <h2>aa entrou em contato via p=C3=A1gina de Contato do Centro Acad=C3=
+=AAmico.</h2>
+      <h2>A mensagem deixada foi:</h2>
+    <p>
+    	"aa"
+    </p>
+    	<h2>Para responder, envie um email para "aa@josta.com"</h2>
+    </p>
+  </body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_5a8f0a3a258bc_4b792aaf9fca8c0c4634f--
+
+Redirected to http://localhost:3000/contact
+Completed 302 Found in 307ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 15:21:46 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_rails_default.html.erb (26.7ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 33.8ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 15:30:58 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oIlVywRsnccw7hv9GG2BEC7ehLVahSPfuUKvF3kGHjobFGUraLBVnbf02BKUN5xQbToSvV/FDPEyc8d2I0ek6w==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (0.6ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.4ms)
+EmailMailer#contact_email: processed outbound mail in 10.7ms
+Sent mail to ufscar.caccs@gmail.com (3.9ms)
+Date: Thu, 22 Feb 2018 15:30:58 -0300
+From: aa@josta.com
+To: ufscar.caccs@gmail.com
+Message-ID: <5a8f0c62c474a_4b792aaf9fca8cc046698@josta-pc.mail>
+Subject: Contato: aa
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a8f0c62c395f_4b792aaf9fca8cc046597";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a8f0c62c395f_4b792aaf9fca8cc046597
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=C3=A1. aa entrou em contato via p=C3=A1gina de Contato do Centro Acad=C3=
+=AAmico.
+
+A mensagem deixada foi:
+
+"aa"
+
+Para responder, envie um email para "aa@josta.com"
+
+----==_mimepart_5a8f0c62c395f_4b792aaf9fca8cc046597
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+  </head>
+  <body>
+    <h1>Ol=C3=A1</h1>
+    <p>
+      <h2>aa entrou em contato via p=C3=A1gina de Contato do Centro Acad=C3=
+=AAmico.</h2>
+      <h2>A mensagem deixada foi:</h2>
+    <p>
+    	"aa"
+    </p>
+    	<h2>Para responder, envie um email para "aa@josta.com"</h2>
+    </p>
+  </body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_5a8f0c62c395f_4b792aaf9fca8cc046597--
+
+Redirected to http://localhost:3000/contact
+Completed 302 Found in 22ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 15:30:58 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.1ms)
+  Rendered pages/contact.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_rails_default.html.erb (32.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 42ms (Views: 41.7ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 15:47:21 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FZ+jVhFRPrCsPs/KzDiiO7rvHk797u2cwsS3dbspgN+uApO2fY326iskDCVAYr97+QuIRviuwrJJ9d8U4Wg6Dg==", "person"=>{"name"=>"Josta", "email"=>"josta@aa.com", "message"=>"Testando 123"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (0.7ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.3ms)
+EmailMailer#contact_email: processed outbound mail in 10.2ms
+Sent mail to z0m8i8f9u6d0z4d1@capatadobisao.slack.com (2.2ms)
+Date: Thu, 22 Feb 2018 15:47:21 -0300
+From: josta@aa.com
+To: z0m8i8f9u6d0z4d1@capatadobisao.slack.com
+Message-ID: <5a8f10398e0e6_4b792aaf9fca8914468cc@josta-pc.mail>
+Subject: Contato: Josta
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a8f10398d767_4b792aaf9fca89144671a";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a8f10398d767_4b792aaf9fca89144671a
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=C3=A1. Josta entrou em contato via p=C3=A1gina de Contato do Centro Ac=
+ad=C3=AAmico.
+
+A mensagem deixada foi:
+
+"Testando 123"
+
+Para responder, envie um email para "josta@aa.com"
+
+----==_mimepart_5a8f10398d767_4b792aaf9fca89144671a
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+  </head>
+  <body>
+    <h1>Ol=C3=A1</h1>
+    <p>
+      <h2>Josta entrou em contato via p=C3=A1gina de Contato do Centro Ac=
+ad=C3=AAmico.</h2>
+      <h2>A mensagem deixada foi:</h2>
+    <p>
+    	"Testando 123"
+    </p>
+    	<h2>Para responder, envie um email para "josta@aa.com"</h2>
+    </p>
+  </body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_5a8f10398d767_4b792aaf9fca89144671a--
+
+Redirected to http://localhost:3000/contact
+Completed 302 Found in 19ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 15:47:21 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (31.1ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 41ms (Views: 39.2ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 16:13:27 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.1ms)
+  Rendered pages/contact.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_rails_default.html.erb (24.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 32.5ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 16:13:49 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dnstThlskCBnGTLvWz5w2XuPMOcURlD7wdbHtjpQ50PN5h2udbBYeuAD8QDXZG2ZOGum7xEGf9VK56/XYBFdkg==", "person"=>{"name"=>"Jostavo", "email"=>"josta@josta.com", "message"=>"Testando Mailjet"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (0.4ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.3ms)
+EmailMailer#contact_email: processed outbound mail in 9.1ms
+Sent mail to grr.pride@gmail.com (2.2ms)
+Date: Thu, 22 Feb 2018 16:13:49 -0300
+From: josta@josta.com
+To: grr.pride@gmail.com
+Message-ID: <5a8f166d86fef_4b792aaf9fca8c0c47090@josta-pc.mail>
+Subject: Contato: Jostavo
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a8f166d86665_4b792aaf9fca8c0c4696b";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a8f166d86665_4b792aaf9fca8c0c4696b
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=C3=A1. Jostavo entrou em contato via p=C3=A1gina de Contato do Centro =
+Acad=C3=AAmico.
+
+A mensagem deixada foi:
+
+"Testando Mailjet"
+
+Para responder, envie um email para "josta@josta.com"
+
+----==_mimepart_5a8f166d86665_4b792aaf9fca8c0c4696b
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+  </head>
+  <body>
+    <h1>Ol=C3=A1</h1>
+    <p>
+      <h2>Jostavo entrou em contato via p=C3=A1gina de Contato do Centro =
+Acad=C3=AAmico.</h2>
+      <h2>A mensagem deixada foi:</h2>
+    <p>
+    	"Testando Mailjet"
+    </p>
+    	<h2>Para responder, envie um email para "josta@josta.com"</h2>
+    </p>
+  </body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_5a8f166d86665_4b792aaf9fca8c0c4696b--
+
+Redirected to http://localhost:3000/contact
+Completed 302 Found in 18ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 16:13:49 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.3ms)
+  Rendered pages/contact.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_rails_default.html.erb (29.4ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 40ms (Views: 38.8ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 16:20:50 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yefxbP6AQwaPr8edqMq6Dsra2JEa3qx5w1qHhT2cu61yesGMklyLXAi1BHIkkKdOiT5OmR+eg1dIa+/kZ90BfA==", "person"=>{"name"=>"Josta", "email"=>"josta@josta.com", "message"=>"Teste 123"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (0.6ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.5ms)
+EmailMailer#contact_email: processed outbound mail in 11.4ms
+Sent mail to grr.pride@gmail.com (4.2ms)
+Date: Thu, 22 Feb 2018 16:20:50 -0300
+From: josta@josta.com
+To: grr.pride@gmail.com
+Message-ID: <5a8f181224dca_4b792aaf9fca8a90472a5@josta-pc.mail>
+Subject: Contato: Josta
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a8f181223ba7_4b792aaf9fca8a9047153";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a8f181223ba7_4b792aaf9fca8a9047153
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=C3=A1. Josta entrou em contato via p=C3=A1gina de Contato do Centro Ac=
+ad=C3=AAmico.
+
+A mensagem deixada foi:
+
+"Teste 123"
+
+Para responder, envie um email para "josta@josta.com"
+
+----==_mimepart_5a8f181223ba7_4b792aaf9fca8a9047153
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+  </head>
+  <body>
+    <h1>Ol=C3=A1</h1>
+    <p>
+      <h2>Josta entrou em contato via p=C3=A1gina de Contato do Centro Ac=
+ad=C3=AAmico.</h2>
+      <h2>A mensagem deixada foi:</h2>
+    <p>
+    	"Teste 123"
+    </p>
+    	<h2>Para responder, envie um email para "josta@josta.com"</h2>
+    </p>
+  </body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_5a8f181223ba7_4b792aaf9fca8a9047153--
+
+Redirected to http://localhost:3000/contact
+Completed 302 Found in 17ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 16:20:50 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.3ms)
+  Rendered pages/contact.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_rails_default.html.erb (37.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 47ms (Views: 46.0ms)
+
+

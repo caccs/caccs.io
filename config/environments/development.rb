@@ -31,6 +31,15 @@ Rails.application.configure do
 
   config.action_mailer.perform_caching = false
 
+  config.action_mailer.smtp_settings = {
+   :address              => "in-v3.mailjet.com",
+   :port                 => 587,
+   :user_name            => 'f0587d2ecd8113eca24831448b2e634d',
+   :password             => '9841bc1a7de85f33412e74ac19eb7656',
+   :authentication       => "plain",
+   :enable_starttls_auto => true
+  }
+
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
 
