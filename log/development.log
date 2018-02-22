@@ -3150,3 +3150,2896 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 40ms (Views: 38.5ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-02-22 10:21:59 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_rails_default.html.erb (1596.8ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 1825ms (Views: 1622.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 10:22:03 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_rails_default.html.erb (47.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 58ms (Views: 56.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 10:22:13 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_rails_default.html.erb (36.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 44ms (Views: 42.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 10:22:37 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_rails_default.html.erb (29.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 34.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 10:22:40 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_rails_default.html.erb (30.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 39ms (Views: 37.6ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:22:42 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (10.9ms)
+Completed 500 Internal Server Error in 14ms
+
+
+  
+ActionView::Template::Error (Missing partial email/_form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/josta/Git/caccs.io/app/views"
+):
+    1: <h1>Contato</h1>
+    2: 
+    3: <%= render 'email/form' %>
+  
+app/views/pages/contact.html.erb:3:in `_app_views_pages_contact_html_erb___2512949505812780746_47289436380660'
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:23:16 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.2ms)
+  Rendered pages/contact.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_rails_default.html.erb (37.8ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 44ms (Views: 43.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:23:18 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.4ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (27.9ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 35.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:26:39 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_rails_default.html.erb (39.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 50ms (Views: 47.6ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&q=&commit=Search" for 127.0.0.1 at 2018-02-22 10:26:44 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/search"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/search?utf8=%E2%9C%93&q=&commit=Search" for 127.0.0.1 at 2018-02-22 10:27:22 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/search"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:27:55 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.0ms)
+  Rendered pages/contact.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_rails_default.html.erb (31.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 40ms (Views: 38.8ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 10:27:56 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/form"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:28:32 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.6ms)
+  Rendered pages/contact.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (29.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 35.1ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 10:28:33 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/form"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:30:38 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.3ms)
+  Rendered pages/contact.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_rails_default.html.erb (38.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 48ms (Views: 46.9ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 10:30:40 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pz0FinWLHvi/xedEj+DwAh+b4pgneQh6ssCQwzJxo1YcoDVqGVfWojjfJKsDuu1CXH90kCI5J1Q58fiiaDAZhw==", "q"=>"", "commit"=>"Search"}
+No template found for EmailController#form, rendering head :no_content
+Completed 204 No Content in 12ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:38:08 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (32.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 40ms (Views: 39.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:38:53 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (37.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 46ms (Views: 44.8ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:39:30 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.3ms)
+  Rendered pages/contact.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_rails_default.html.erb (32.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 42ms (Views: 41.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:40:00 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (33.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 40ms (Views: 39.6ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:45:40 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.7ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (31.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 39ms (Views: 37.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:46:26 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (7.4ms)
+  Rendered pages/contact.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_rails_default.html.erb (32.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 48ms (Views: 47.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:46:43 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.2ms)
+  Rendered pages/contact.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_rails_default.html.erb (31.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 41ms (Views: 40.6ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:46:45 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_rails_default.html.erb (32.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 40ms (Views: 39.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:46:45 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.4ms)
+  Rendered pages/contact.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_rails_default.html.erb (35.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 47ms (Views: 45.2ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:46:45 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (32.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 40ms (Views: 39.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:46:45 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.7ms)
+  Rendered pages/contact.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (25.5ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 31.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:46:45 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (28.5ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 34.2ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:47:39 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (35.8ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 43ms (Views: 42.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:49:01 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.0ms)
+  Rendered pages/contact.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_rails_default.html.erb (28.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 36.4ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:49:02 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.0ms)
+  Rendered pages/contact.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_rails_default.html.erb (34.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 42ms (Views: 41.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:49:03 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (36.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 44ms (Views: 43.4ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:50:13 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.2ms)
+  Rendered pages/contact.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_rails_default.html.erb (57.3ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 68ms (Views: 66.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:50:14 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (2.1ms)
+  Rendered pages/contact.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_rails_default.html.erb (41.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 51ms (Views: 50.3ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:50:15 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (32.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 40ms (Views: 39.8ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:52:07 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (29.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 35.2ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:52:07 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (8.2ms)
+  Rendered pages/contact.html.erb within layouts/application (9.5ms)
+  Rendered layouts/_rails_default.html.erb (34.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 51ms (Views: 49.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:52:08 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.2ms)
+  Rendered pages/contact.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_rails_default.html.erb (27.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 34.9ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:52:08 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (39.9ms)
+  Rendered layouts/_shim.html.erb (0.7ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 48ms (Views: 47.3ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:52:53 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (27.0ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 33.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:52:54 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (31.9ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 38ms (Views: 37.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:52:55 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (34.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 43ms (Views: 41.6ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:52:55 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.3ms)
+  Rendered pages/contact.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_rails_default.html.erb (29.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 39ms (Views: 38.3ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:52:55 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (27.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 33.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:52:55 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_rails_default.html.erb (28.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 40ms (Views: 38.8ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:52:56 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (30.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 38ms (Views: 37.4ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:52:56 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (33.6ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 40ms (Views: 39.3ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:52:56 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.0ms)
+  Rendered pages/contact.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_rails_default.html.erb (32.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 41ms (Views: 39.9ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:52:56 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_rails_default.html.erb (33.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 42ms (Views: 41.4ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:52:56 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.5ms)
+  Rendered pages/contact.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_rails_default.html.erb (36.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 45ms (Views: 44.2ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:52:56 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (53.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 63ms (Views: 62.6ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:52:57 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.8ms)
+  Rendered pages/contact.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_rails_default.html.erb (65.3ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 80ms (Views: 78.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:53:13 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (2.2ms)
+  Rendered pages/contact.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_rails_default.html.erb (46.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 60ms (Views: 57.9ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:53:23 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (29.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 36.2ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:53:35 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (30.9ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 39ms (Views: 37.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:53:49 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.5ms)
+  Rendered pages/contact.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_rails_default.html.erb (27.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 35ms (Views: 34.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:53:54 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (33.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 41ms (Views: 40.3ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:53:59 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.6ms)
+  Rendered pages/contact.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_rails_default.html.erb (38.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 49ms (Views: 47.6ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:54:05 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (27.9ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 34.2ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:54:21 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.0ms)
+  Rendered pages/contact.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_rails_default.html.erb (36.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 46ms (Views: 44.8ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:54:22 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.0ms)
+  Rendered pages/contact.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_rails_default.html.erb (44.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 53ms (Views: 51.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:54:23 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.3ms)
+  Rendered pages/contact.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_rails_default.html.erb (69.0ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 79ms (Views: 78.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:54:23 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.3ms)
+  Rendered pages/contact.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_rails_default.html.erb (26.8ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 33.8ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:54:23 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.7ms)
+  Rendered pages/contact.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (26.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 33ms (Views: 32.2ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:54:24 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.2ms)
+  Rendered pages/contact.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_rails_default.html.erb (30.5ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 38ms (Views: 37.2ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:54:24 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (26.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 32.6ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:55:24 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.7ms)
+  Rendered pages/contact.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (31.0ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 38ms (Views: 36.8ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:55:25 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (29.7ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 35.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:55:25 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.7ms)
+  Rendered pages/contact.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (25.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 31.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:55:25 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.4ms)
+  Rendered pages/contact.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_rails_default.html.erb (27.5ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 35.3ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:56:44 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (29.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 35.6ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:57:35 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (32.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 41ms (Views: 39.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:57:50 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (28.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 34.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:58:20 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.7ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (31.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 38ms (Views: 37.8ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:59:00 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (27.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 34ms (Views: 33.6ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:59:01 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (32.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 40ms (Views: 38.6ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:59:01 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.7ms)
+  Rendered pages/contact.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (25.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 31.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:59:01 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (35.6ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 42ms (Views: 41.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:59:01 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.7ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (26.6ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 35ms (Views: 33.8ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:59:01 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (29.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 38ms (Views: 36.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:59:02 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (28.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 36ms (Views: 35.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 10:59:02 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (28.1ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 34.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:08:17 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (32.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 39ms (Views: 38.6ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:09:19 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.5ms)
+  Rendered pages/contact.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_rails_default.html.erb (32.9ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 42ms (Views: 41.6ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:10:01 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.8ms)
+  Rendered pages/contact.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_rails_default.html.erb (55.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 67ms (Views: 65.8ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:10:59 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (33.3ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 40ms (Views: 39.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:11:00 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (29.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 35.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:11:00 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (29.2ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 35.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:11:05 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (29.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 35.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:11:19 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (29.1ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 35.8ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:11:19 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.4ms)
+  Rendered pages/contact.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_rails_default.html.erb (36.8ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 46ms (Views: 45.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:11:20 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.0ms)
+  Rendered pages/contact.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (26.7ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 33.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:11:20 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (26.9ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 34ms (Views: 32.8ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:11:26 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (27.3ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 36ms (Views: 35.4ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:12:57 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (27.6ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 33.8ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:12:58 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (30.8ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 36.4ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:12:58 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.5ms)
+  Rendered pages/contact.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_rails_default.html.erb (26.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 36ms (Views: 34.9ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:12:58 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.2ms)
+  Rendered pages/contact.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_rails_default.html.erb (39.9ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 49ms (Views: 48.3ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:12:58 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (34.0ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 44ms (Views: 42.3ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:13:03 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.3ms)
+  Rendered pages/contact.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_rails_default.html.erb (28.5ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 36ms (Views: 35.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:13:03 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (28.0ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 33.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:13:04 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (27.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 33.6ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:13:04 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (28.9ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 37ms (Views: 35.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:13:16 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.0ms)
+  Rendered pages/contact.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_rails_default.html.erb (37.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 44ms (Views: 43.6ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:13:17 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.7ms)
+  Rendered pages/contact.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (27.4ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 33.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:13:17 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.7ms)
+  Rendered pages/contact.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (30.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 35.8ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:13:17 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (27.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 33.3ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:14:09 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_rails_default.html.erb (28.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 35.8ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:14:30 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (28.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 37ms (Views: 36.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:14:30 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.0ms)
+  Rendered pages/contact.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_rails_default.html.erb (27.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 34.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:14:31 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (40.3ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 48ms (Views: 47.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:14:31 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.0ms)
+  Rendered pages/contact.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_rails_default.html.erb (27.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 34.2ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:14:41 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.7ms)
+  Rendered pages/contact.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (37.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 45ms (Views: 44.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:14:41 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (28.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 35.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:14:41 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (27.0ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 34ms (Views: 33.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:24:50 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.6ms)
+  Rendered pages/contact.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_rails_default.html.erb (26.2ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 36ms (Views: 34.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:24:51 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (33.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 41ms (Views: 39.9ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:24:52 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (33.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 41ms (Views: 39.2ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:24:52 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.4ms)
+  Rendered pages/contact.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_rails_default.html.erb (35.1ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 43ms (Views: 42.2ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:25:41 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (28.6ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 38ms (Views: 37.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:25:42 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (33.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 41ms (Views: 40.6ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:25:42 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (31.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 38ms (Views: 37.6ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:25:42 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (37.3ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 44ms (Views: 43.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:25:42 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.0ms)
+  Rendered pages/contact.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_rails_default.html.erb (34.2ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 42ms (Views: 41.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:25:43 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (27.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 32.8ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:27:21 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (38.8ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 47ms (Views: 46.6ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:27:21 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (34.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 42ms (Views: 40.8ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:27:22 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (26.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 34ms (Views: 33.3ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:27:22 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (38.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 46ms (Views: 45.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:27:22 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.1ms)
+  Rendered pages/contact.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_rails_default.html.erb (29.5ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 37ms (Views: 36.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:31:15 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (27.5ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 33.3ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:31:16 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.1ms)
+  Rendered pages/contact.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_rails_default.html.erb (28.4ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 35.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:31:16 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (27.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 33.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:31:16 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.0ms)
+  Rendered pages/contact.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (32.0ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 40ms (Views: 39.4ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:31:16 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_rails_default.html.erb (49.3ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 57ms (Views: 56.2ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:31:37 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.7ms)
+  Rendered pages/contact.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (29.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 36.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:31:48 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (29.9ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 36.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:31:48 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (26.2ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 32.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:31:49 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (27.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 34ms (Views: 33.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:31:49 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (29.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 34.9ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:31:49 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (35.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 43ms (Views: 41.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:31:49 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (26.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 32.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:31:56 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (27.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 35ms (Views: 33.9ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:31:56 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (28.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 35.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:31:56 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (27.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 33.6ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:31:57 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (27.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 34ms (Views: 33.3ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:32:05 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.0ms)
+  Rendered pages/contact.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_rails_default.html.erb (34.5ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 43ms (Views: 41.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:32:05 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.5ms)
+  Rendered pages/contact.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_rails_default.html.erb (42.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 53ms (Views: 51.8ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:32:05 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.3ms)
+  Rendered pages/contact.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_rails_default.html.erb (28.1ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 35.4ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:32:05 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.7ms)
+  Rendered pages/contact.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (30.0ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 35.4ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:32:12 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.4ms)
+  Rendered pages/contact.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_rails_default.html.erb (27.6ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 36ms (Views: 34.8ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:32:13 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (27.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 33.2ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:32:14 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (35.7ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 43ms (Views: 42.2ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:33:29 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.7ms)
+  Rendered pages/contact.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (27.8ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 33.6ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:33:30 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.1ms)
+  Rendered pages/contact.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_rails_default.html.erb (26.8ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 34.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:33:30 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (29.6ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 36.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:33:30 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (25.5ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 33.3ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:33:50 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.6ms)
+  Rendered pages/contact.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_rails_default.html.erb (29.7ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 40ms (Views: 38.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:33:51 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (33.8ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 41ms (Views: 39.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:33:51 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.0ms)
+  Rendered pages/contact.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_rails_default.html.erb (27.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 34.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:33:51 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.0ms)
+  Rendered pages/contact.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_rails_default.html.erb (27.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 33.4ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:33:52 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (26.6ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 33ms (Views: 32.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:33:52 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.4ms)
+  Rendered pages/contact.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_rails_default.html.erb (32.5ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 42ms (Views: 40.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:34:09 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (28.2ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 34.2ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:34:10 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (36.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 43.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:34:10 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (25.7ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 31.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:34:10 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.0ms)
+  Rendered pages/contact.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (25.6ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 31.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:34:19 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (28.3ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 35.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:34:19 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_rails_default.html.erb (30.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 38ms (Views: 36.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:34:20 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (28.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 34.9ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:34:20 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.0ms)
+  Rendered pages/contact.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_rails_default.html.erb (31.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 40ms (Views: 38.6ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:34:20 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.7ms)
+  Rendered pages/contact.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (26.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 32.6ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:34:26 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (28.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 34.3ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:35:33 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (30.3ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 35.8ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 11:35:56 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3v5KGyTALam9EuwqxN26T3es/7B9H+u8+vNmH9+lVzVlY3r7SBzl8zoIL8VIh6cPNEhpuHhfxJJxwg5+heTt5A==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+No template found for EmailController#form, rendering head :no_content
+Completed 204 No Content in 23ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:38:35 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (28.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 34.3ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 11:38:40 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vjuYBWCFg6qikD5f2z3NpRFefGLbzNx/ZOyRdBWRWfIFpqjlDFlL8CWK/bBXZ9DlUrrqat6M81Hv3fkVT9DjIw==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 167ms
+
+
+  
+NameError (undefined local variable or method `name' for #<EmailController:0x007f91dd763858>
+Did you mean?  nome):
+  
+app/controllers/email_controller.rb:3:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 11:38:56 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vjuYBWCFg6qikD5f2z3NpRFefGLbzNx/ZOyRdBWRWfIFpqjlDFlL8CWK/bBXZ9DlUrrqat6M81Hv3fkVT9DjIw==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/email_controller.rb:3:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 11:41:10 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vjuYBWCFg6qikD5f2z3NpRFefGLbzNx/ZOyRdBWRWfIFpqjlDFlL8CWK/bBXZ9DlUrrqat6M81Hv3fkVT9DjIw==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 162ms
+
+
+  
+NameError (undefined local variable or method `value' for #<EmailController:0x007f91d85703e8>):
+  
+app/controllers/email_controller.rb:3:in `block in form'
+app/controllers/email_controller.rb:3:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 11:41:23 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vjuYBWCFg6qikD5f2z3NpRFefGLbzNx/ZOyRdBWRWfIFpqjlDFlL8CWK/bBXZ9DlUrrqat6M81Hv3fkVT9DjIw==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+No template found for EmailController#form, rendering head :no_content
+Completed 204 No Content in 11ms
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 11:42:37 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vjuYBWCFg6qikD5f2z3NpRFefGLbzNx/ZOyRdBWRWfIFpqjlDFlL8CWK/bBXZ9DlUrrqat6M81Hv3fkVT9DjIw==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+No template found for EmailController#form, rendering head :no_content
+Completed 204 No Content in 12ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:42:40 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.1ms)
+  Rendered pages/contact.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_rails_default.html.erb (39.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 48ms (Views: 46.7ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 11:42:43 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u3fJVJXZ4I81uXVDIwHPh75DF/no6VnyceHTlkFmqvsA6vm0+QUo1bKjtqyvW9LH/aeB8e2pdtz60Lv3GycQKg==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+No template found for EmailController#form, rendering head :no_content
+Completed 204 No Content in 15ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:43:45 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (29.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 35.2ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 11:43:48 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"knS/LS258erUo99fCRu3q+ak1ec/gSYgxjb8xbGmFC8p6Y/NQWU5sFO5HLCFQarrpUBD7zrBCQ5NB5Sk6+eu/g==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+No template found for EmailController#form, rendering head :no_content
+Completed 204 No Content in 12ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:44:02 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (28.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 34.9ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 11:44:06 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Il0/hiu1XMa/yG4m30v1gi1py3Fjruw3X4dbF2F6CWKZwA9mR2mUnDjSrclTEejCbo1deWbuwxnUtjN2Ozuzsw==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+No template found for EmailController#form, rendering head :no_content
+Completed 204 No Content in 15ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:45:01 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.1ms)
+  Rendered pages/contact.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_rails_default.html.erb (33.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 41ms (Views: 40.2ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 11:45:03 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S8CzvRspXJUdj8nJVMHlwy7Nt1chacQHhVxtI2LdII7wXYNdd/WUz5qVCibYm/iDbSkhXyQp6ykObQVCOJyaXw==", "person"=>{"name"=>"", "email"=>"", "message"=>""}, "commit"=>"Enviar"}
+No template found for EmailController#form, rendering head :no_content
+Completed 204 No Content in 11ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:45:34 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (29.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 36.0ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 11:45:35 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Qe6+Jg3D2emkY/xXRINTkvgNncZk0DZIyXXjs+CH/i76c47GYR8RsyN5P7jI2U7Su+kLzmGQGWZCRIvSusZE/w==", "person"=>{"name"=>"", "email"=>"", "message"=>""}, "commit"=>"Enviar"}
+No template found for EmailController#form, rendering head :no_content
+Completed 204 No Content in 11ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:45:53 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.2ms)
+  Rendered pages/contact.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_rails_default.html.erb (40.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 49ms (Views: 48.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:45:55 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.5ms)
+  Rendered pages/contact.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_rails_default.html.erb (27.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 35.1ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 11:45:56 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"w3NrDMMjN8bQUDB/vX28P3QTAoa1Cqdyhu+VbRcKgEV47lvsr///nFdK85AxJ6F/N/eUjrBKiFwN3v0MTUs6lA==", "person"=>{"name"=>"", "email"=>"", "message"=>""}, "commit"=>"Enviar"}
+No template found for EmailController#form, rendering head :no_content
+Completed 204 No Content in 12ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:46:55 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.0ms)
+  Rendered pages/contact.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_rails_default.html.erb (26.9ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 33.7ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 11:46:56 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0a9PkCtBHlX0jWgVkQ/Bn9OXbN1CqQ2FB3iX7+gU14VqMn9wR53WD3OXq/odVdzfkHP61UfpIquMSf+OslVtVA==", "person"=>{"name"=>"", "email"=>"", "message"=>""}, "commit"=>"Enviar"}
+No template found for EmailController#form, rendering head :no_content
+Completed 204 No Content in 12ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:47:18 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.8ms)
+  Rendered pages/contact.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_rails_default.html.erb (28.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 38ms (Views: 36.4ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 11:47:23 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IuEUs+kb7kIXqIEF0+BRK8cVat7Zg5PBn+YvajGWmDmZfCRThccmGJCyQupfukxrhPH81tzDvO8U10cLa9ci6A==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"bb"}, "commit"=>"Enviar"}
+No template found for EmailController#form, rendering head :no_content
+Completed 204 No Content in 12ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:56:48 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 199ms
+
+
+  
+ActionView::Template::Error (Missing partial email/_form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/josta/Git/caccs.io/app/views"
+):
+    1: <h1>Contato</h1>
+    2: 
+    3: <%= render 'email/form' %>
+  
+app/views/pages/contact.html.erb:3:in `_app_views_pages_contact_html_erb__2217120595312480988_47279213788680'
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:57:43 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 4ms
+
+
+  
+ActionView::Template::Error (Missing partial email_mailer/_form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/josta/Git/caccs.io/app/views"
+):
+    1: <h1>Contato</h1>
+    2: 
+    3: <%= render 'email_mailer/form' %>
+  
+app/views/pages/contact.html.erb:3:in `_app_views_pages_contact_html_erb__2217120595312480988_70120478805400'
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 11:58:30 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email_mailer/_form.html.erb (3.9ms)
+  Rendered pages/contact.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_rails_default.html.erb (545.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 556ms (Views: 555.3ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 11:58:36 -0300
+  
+ActionController::RoutingError (uninitialized constant EmailController):
+  
+activesupport (5.1.5) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.5) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.5) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.5) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.5) lib/active_support/inflector/methods.rb:267:in `constantize'
+actionpack (5.1.5) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.5) lib/action_dispatch/http/request.rb:78:in `controller_class'
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:43:in `controller'
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:29:in `serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+rack (2.0.4) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.4) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.5) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/form" for 127.0.0.1 at 2018-02-22 12:04:34 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/form"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/form" for 127.0.0.1 at 2018-02-22 12:05:17 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/form"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/form" for 127.0.0.1 at 2018-02-22 12:05:43 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/form"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-02-22 12:05:45 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_rails_default.html.erb (274.4ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 407ms (Views: 280.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 12:05:47 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.7ms)
+  Rendered pages/contact.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_rails_default.html.erb (32.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 42ms (Views: 40.8ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 12:06:46 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Hz9IWmhD2JWHEznTWDGb/lQFCVev1mh6BbI3w5rmkm5JAVlK/A8sIyDpOW0E6m4FF9L44oiK/gObPWUsW517Cw==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+No template found for EmailController#form, rendering head :no_content
+Completed 204 No Content in 16ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 12:21:00 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (3.8ms)
+  Rendered pages/contact.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_rails_default.html.erb (202.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 407ms (Views: 215.0ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 12:21:18 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jARFl5m7ephlWkhhrQ0mdJiyC881POWw/c7M9KWpVHw3mXV39WeywuJAi44hVzs021adxzB8yp52/6SV/+jurQ==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NameError (uninitialized constant EmailController::Mailer):
+  
+app/controllers/email_controller.rb:7:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 12:22:48 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jARFl5m7ephlWkhhrQ0mdJiyC881POWw/c7M9KWpVHw3mXV39WeywuJAi44hVzs021adxzB8yp52/6SV/+jurQ==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 259ms
+
+
+  
+NoMethodError (undefined method `aa' for EmailMailer:Class):
+  
+app/controllers/email_controller.rb:7:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 12:23:32 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jARFl5m7ephlWkhhrQ0mdJiyC881POWw/c7M9KWpVHw3mXV39WeywuJAi44hVzs021adxzB8yp52/6SV/+jurQ==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 9ms
+
+
+  
+NoMethodError (undefined method `aa' for EmailMailer:Class):
+  
+app/controllers/email_controller.rb:7:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 12:23:48 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jARFl5m7ephlWkhhrQ0mdJiyC881POWw/c7M9KWpVHw3mXV39WeywuJAi44hVzs021adxzB8yp52/6SV/+jurQ==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 6ms
+
+
+  
+NoMethodError (undefined method `nome' for EmailMailer:Class
+Did you mean?  name):
+  
+app/controllers/email_controller.rb:7:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 12:24:06 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jARFl5m7ephlWkhhrQ0mdJiyC881POWw/c7M9KWpVHw3mXV39WeywuJAi44hVzs021adxzB8yp52/6SV/+jurQ==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 7ms
+
+
+  
+NoMethodError (undefined method `nome' for EmailMailer:Class
+Did you mean?  name):
+  
+app/controllers/email_controller.rb:7:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 12:25:26 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jARFl5m7ephlWkhhrQ0mdJiyC881POWw/c7M9KWpVHw3mXV39WeywuJAi44hVzs021adxzB8yp52/6SV/+jurQ==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 8ms
+
+
+  
+NoMethodError (undefined method `aa' for EmailMailer:Class):
+  
+app/controllers/email_controller.rb:7:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 12:25:54 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jARFl5m7ephlWkhhrQ0mdJiyC881POWw/c7M9KWpVHw3mXV39WeywuJAi44hVzs021adxzB8yp52/6SV/+jurQ==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 170ms
+
+
+  
+NameError (undefined local variable or method `nome' for #<EmailController:0x007fb0f4393be8>
+Did you mean?  @nome):
+  
+app/controllers/email_controller.rb:7:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 12:27:21 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jARFl5m7ephlWkhhrQ0mdJiyC881POWw/c7M9KWpVHw3mXV39WeywuJAi44hVzs021adxzB8yp52/6SV/+jurQ==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 9ms
+
+
+  
+NoMethodError (undefined method `aa' for EmailMailer:Class):
+  
+app/controllers/email_controller.rb:3:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 12:30:37 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jARFl5m7ephlWkhhrQ0mdJiyC881POWw/c7M9KWpVHw3mXV39WeywuJAi44hVzs021adxzB8yp52/6SV/+jurQ==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 5ms
+
+
+  
+TypeError (<ActionController::Parameters {"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"} permitted: false> is not a symbol nor a string):
+  
+app/controllers/email_controller.rb:5:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 12:31:53 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jARFl5m7ephlWkhhrQ0mdJiyC881POWw/c7M9KWpVHw3mXV39WeywuJAi44hVzs021adxzB8yp52/6SV/+jurQ==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 10ms
+
+
+  
+NoMethodError (undefined method `person' for EmailMailer:Class):
+  
+app/controllers/email_controller.rb:5:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 12:32:12 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jARFl5m7ephlWkhhrQ0mdJiyC881POWw/c7M9KWpVHw3mXV39WeywuJAi44hVzs021adxzB8yp52/6SV/+jurQ==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 5ms
+
+
+  
+ArgumentError (no method name given):
+  
+app/controllers/email_controller.rb:5:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 12:32:41 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jARFl5m7ephlWkhhrQ0mdJiyC881POWw/c7M9KWpVHw3mXV39WeywuJAi44hVzs021adxzB8yp52/6SV/+jurQ==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 5ms
+
+
+  
+ArgumentError (no method name given):
+  
+app/controllers/email_controller.rb:5:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 12:32:49 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jARFl5m7ephlWkhhrQ0mdJiyC881POWw/c7M9KWpVHw3mXV39WeywuJAi44hVzs021adxzB8yp52/6SV/+jurQ==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 5ms
+
+
+  
+ArgumentError (no method name given):
+  
+app/controllers/email_controller.rb:5:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 12:36:15 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jARFl5m7ephlWkhhrQ0mdJiyC881POWw/c7M9KWpVHw3mXV39WeywuJAi44hVzs021adxzB8yp52/6SV/+jurQ==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 7ms
+
+
+  
+NoMethodError (undefined method `aa' for EmailMailer:Class):
+  
+app/controllers/email_controller.rb:7:in `form'
+Started GET "/" for 127.0.0.1 at 2018-02-22 12:37:54 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_rails_default.html.erb (40.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 51ms (Views: 50.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 12:37:56 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.4ms)
+  Rendered pages/contact.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_rails_default.html.erb (45.3ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 55ms (Views: 53.8ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 12:38:01 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9rTX7U33zIVX/RijfJiOPcxtMHWvDD7r61qbRW7Vneqgisb92bs4M/AHGB0gQ3vGj7rBwIhQqJJ11cmqr650jw==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 14ms
+
+
+  
+NoMethodError (undefined method `mail' for EmailMailer:Class):
+  
+app/mailers/email_mailer.rb:13:in `send'
+app/controllers/email_controller.rb:7:in `form'
+Started GET "/" for 127.0.0.1 at 2018-02-22 12:40:30 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_rails_default.html.erb (30.9ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 37ms (Views: 36.0ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 12:40:32 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"00Q3XjC2TdJzeWyTjUHM9McLsEfAXXtpjQ07cDB5mCZo2Qe+XGqFiPRjr3wBG9G0hO8mT8UdVEcGPFMRajgi9w==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+SyntaxError (/home/josta/Git/caccs.io/app/mailers/email_mailer.rb:13: syntax error, unexpected tSTRING_BEG, expecting =>
+r.pride@gmail.com", :subject "Teste"
+                              ^):
+  
+app/mailers/email_mailer.rb:13: syntax error, unexpected tSTRING_BEG, expecting =>
+app/controllers/email_controller.rb:7:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 12:41:55 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"00Q3XjC2TdJzeWyTjUHM9McLsEfAXXtpjQ07cDB5mCZo2Qe+XGqFiPRjr3wBG9G0hO8mT8UdVEcGPFMRajgi9w==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+SyntaxError (/home/josta/Git/caccs.io/app/mailers/email_mailer.rb:13: syntax error, unexpected tSTRING_BEG, expecting =>
+r.pride@gmail.com", :subject "Teste"
+                              ^):
+  
+app/mailers/email_mailer.rb:13: syntax error, unexpected tSTRING_BEG, expecting =>
+app/controllers/email_controller.rb:7:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 12:42:43 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"00Q3XjC2TdJzeWyTjUHM9McLsEfAXXtpjQ07cDB5mCZo2Qe+XGqFiPRjr3wBG9G0hO8mT8UdVEcGPFMRajgi9w==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 202ms
+
+
+  
+SyntaxError (/home/josta/Git/caccs.io/app/mailers/email_mailer.rb:13: syntax error, unexpected tSTRING_BEG, expecting =>
+r.pride@gmail.com", :subject "Teste"
+                              ^):
+  
+app/mailers/email_mailer.rb:13: syntax error, unexpected tSTRING_BEG, expecting =>
+app/controllers/email_controller.rb:7:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 12:43:51 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"00Q3XjC2TdJzeWyTjUHM9McLsEfAXXtpjQ07cDB5mCZo2Qe+XGqFiPRjr3wBG9G0hO8mT8UdVEcGPFMRajgi9w==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 111ms
+
+
+  
+NoMethodError (undefined method `mail' for EmailMailer:Class):
+  
+app/mailers/email_mailer.rb:13:in `send'
+app/controllers/email_controller.rb:7:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 12:46:44 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"00Q3XjC2TdJzeWyTjUHM9McLsEfAXXtpjQ07cDB5mCZo2Qe+XGqFiPRjr3wBG9G0hO8mT8UdVEcGPFMRajgi9w==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 9ms
+
+
+  
+NoMethodError (undefined method `mail' for EmailMailer:Class):
+  
+app/mailers/email_mailer.rb:7:in `send'
+app/controllers/email_controller.rb:7:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 12:48:25 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"00Q3XjC2TdJzeWyTjUHM9McLsEfAXXtpjQ07cDB5mCZo2Qe+XGqFiPRjr3wBG9G0hO8mT8UdVEcGPFMRajgi9w==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 8ms
+
+
+  
+NoMethodError (undefined method `mail' for EmailMailer:Class):
+  
+app/mailers/email_mailer.rb:7:in `send'
+app/controllers/email_controller.rb:7:in `form'
