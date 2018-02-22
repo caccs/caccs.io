@@ -1,12 +1,10 @@
 class EmailMailer < ApplicationMailer
-	
-	
-  def self.send(name, email, message)
+  def send(name, email, message)
     @nome = name
     @email = email
     @mensagem = message
 
-    mail(to: "grr.pride@gmail.com", subject: 'Welcome to My Awesome Site')
+    mail(subject: 'Welcome to My Awesome Site')
 
     puts "foi"
   end

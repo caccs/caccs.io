@@ -6043,3 +6043,70 @@ NoMethodError (undefined method `mail' for EmailMailer:Class):
   
 app/mailers/email_mailer.rb:7:in `send'
 app/controllers/email_controller.rb:7:in `form'
+Started GET "/" for 127.0.0.1 at 2018-02-22 12:56:09 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_rails_default.html.erb (204.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 408ms (Views: 211.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 12:56:12 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (6.5ms)
+  Rendered pages/contact.html.erb within layouts/application (7.9ms)
+  Rendered layouts/_rails_default.html.erb (47.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 65ms (Views: 63.9ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 12:56:16 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"z+l/2U9JfxSxdeuuxjlPYY3l0T8TpRv5wfl8QkUm2ruZ127J2wWLohaP6xCa4rqazjIgijT5jYBfdi6thF0z3g==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 178ms
+
+
+  
+NoMethodError (undefined method `mail' for EmailMailer:Class):
+  
+app/mailers/email_mailer.rb:9:in `send'
+app/controllers/email_controller.rb:7:in `form'
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 12:57:44 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.1ms)
+  Rendered pages/contact.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_rails_default.html.erb (28.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 43ms (Views: 37.2ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 12:57:47 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TjR9PR+34eJ19mBLJkLnDvepS848gyigKT8caI//iZX1qU3dc2spuPLso6SqGPpOtE3dxjnDB46iDnQJ1b4zRA==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 11ms
+
+
+  
+NoMethodError (undefined method `mail' for EmailMailer:Class):
+  
+app/mailers/email_mailer.rb:7:in `send'
+app/controllers/email_controller.rb:7:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 12:59:31 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TjR9PR+34eJ19mBLJkLnDvepS848gyigKT8caI//iZX1qU3dc2spuPLso6SqGPpOtE3dxjnDB46iDnQJ1b4zRA==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 7ms
+
+
+  
+NoMethodError (undefined method `aa' for EmailMailer:Class):
+  
+app/controllers/email_controller.rb:7:in `form'
