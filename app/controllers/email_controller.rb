@@ -4,6 +4,6 @@ class EmailController < ApplicationController
 	  	email = params["person"]["email"].to_s
 	  	mensagem = params["person"]["message"].to_s
 
-	  	EmailMailer.send(nome, email, mensagem).deliver_now
+	  	EmailMailer.contact_email(nome, email, mensagem).deliver_now
 	end
 end

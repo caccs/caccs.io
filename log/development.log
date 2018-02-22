@@ -6110,3 +6110,118 @@ Completed 500 Internal Server Error in 7ms
 NoMethodError (undefined method `aa' for EmailMailer:Class):
   
 app/controllers/email_controller.rb:7:in `form'
+Started GET "/" for 127.0.0.1 at 2018-02-22 13:02:52 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_rails_default.html.erb (226.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 418ms (Views: 235.3ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 13:02:53 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (4.2ms)
+  Rendered pages/contact.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_rails_default.html.erb (32.6ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 44ms (Views: 42.9ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 13:02:57 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bldAJohuNk9NMTiQYS3rh1PD0NcD+35hqWGMvXu6z5A4aVE2HCLC+erLOC499h58EBQhYiSn6Bg37t5SusEm9Q==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+EmailMailer#contact_email: processed outbound mail in 5.7ms
+Completed 500 Internal Server Error in 126ms
+
+
+  
+ActionView::MissingTemplate (Missing template email_mailer/contact_email with "mailer". Searched in:
+  * "email_mailer"
+):
+  
+app/mailers/email_mailer.rb:7:in `contact_email'
+app/controllers/email_controller.rb:7:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 13:03:56 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bldAJohuNk9NMTiQYS3rh1PD0NcD+35hqWGMvXu6z5A4aVE2HCLC+erLOC499h58EBQhYiSn6Bg37t5SusEm9Q==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (0.4ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.3ms)
+EmailMailer#contact_email: processed outbound mail in 351.1ms
+Sent mail to  (6.1ms)
+Date: Thu, 22 Feb 2018 13:03:56 -0300
+From: grr.pride@gmail.com
+Message-ID: <5a8ee9ec93f7e_34c02aea0a9d938c38947@josta-pc.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a8ee9ec92c2e_34c02aea0a9d938c38817";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a8ee9ec92c2e_34c02aea0a9d938c38817
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=C3=A1. aa entrou em contato via p=C3=A1gina de Contato do Centro Acad=C3=
+=AAmico.
+
+A mensagem deixada foi:
+
+"aa"
+
+Para responder, envie um email para "aa@josta.com"
+
+----==_mimepart_5a8ee9ec92c2e_34c02aea0a9d938c38817
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+  </head>
+  <body>
+    <h1>Ol=C3=A1</h1>
+    <p>
+      <h2>aa entrou em contato via p=C3=A1gina de Contato do Centro Acad=C3=
+=AAmico.</h2>
+      <h2>A mensagem deixada foi:</h2>
+    <p>
+    	"aa"
+    </p>
+    	<h2>Para responder, envie um email para "aa@josta.com"</h2>
+    </p>
+  </body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_5a8ee9ec92c2e_34c02aea0a9d938c38817--
+
+No template found for EmailController#form, rendering head :no_content
+Completed 204 No Content in 369ms
+
+
