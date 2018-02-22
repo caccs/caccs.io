@@ -6225,3 +6225,478 @@ No template found for EmailController#form, rendering head :no_content
 Completed 204 No Content in 369ms
 
 
+Started GET "/" for 127.0.0.1 at 2018-02-22 13:38:38 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_rails_default.html.erb (191.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 359ms (Views: 198.3ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 13:38:41 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (8.2ms)
+  Rendered pages/contact.html.erb within layouts/application (9.7ms)
+  Rendered layouts/_rails_default.html.erb (69.7ms)
+  Rendered layouts/_shim.html.erb (0.9ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 90ms (Views: 88.4ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 13:38:45 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Ve/snYmdRt7pmQ+YbQtp9xpxusI7ah+9eCcVjQwt7mraa6i4mqBrdxcZIA9b9hcn743Xi+xPgdrb8659Ute3A==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+EmailMailer#contact_email: processed outbound mail in 3.5ms
+Completed 500 Internal Server Error in 128ms
+
+
+  
+NameError (undefined local variable or method `nome' for #<EmailMailer:0x007f1a8864c770>
+Did you mean?  @nome
+               name):
+  
+app/mailers/email_mailer.rb:7:in `contact_email'
+app/controllers/email_controller.rb:7:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 13:39:00 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Ve/snYmdRt7pmQ+YbQtp9xpxusI7ah+9eCcVjQwt7mraa6i4mqBrdxcZIA9b9hcn743Xi+xPgdrb8659Ute3A==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+EmailMailer#contact_email: processed outbound mail in 0.3ms
+Completed 500 Internal Server Error in 6ms
+
+
+  
+TypeError (no implicit conversion of Symbol into String):
+  
+app/mailers/email_mailer.rb:7:in `+'
+app/mailers/email_mailer.rb:7:in `contact_email'
+app/controllers/email_controller.rb:7:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 13:39:11 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Ve/snYmdRt7pmQ+YbQtp9xpxusI7ah+9eCcVjQwt7mraa6i4mqBrdxcZIA9b9hcn743Xi+xPgdrb8659Ute3A==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (0.6ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.4ms)
+EmailMailer#contact_email: processed outbound mail in 194.0ms
+Sent mail to  (6.2ms)
+Date: Thu, 22 Feb 2018 13:39:12 -0300
+From: grr.pride@gmail.com
+Message-ID: <5a8ef2302e367_39672aad2862f3cc239d0@josta-pc.mail>
+Subject: Contato: nome
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a8ef2302cc6d_39672aad2862f3cc238b4";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a8ef2302cc6d_39672aad2862f3cc238b4
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=C3=A1. aa entrou em contato via p=C3=A1gina de Contato do Centro Acad=C3=
+=AAmico.
+
+A mensagem deixada foi:
+
+"aa"
+
+Para responder, envie um email para "aa@josta.com"
+
+----==_mimepart_5a8ef2302cc6d_39672aad2862f3cc238b4
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+  </head>
+  <body>
+    <h1>Ol=C3=A1</h1>
+    <p>
+      <h2>aa entrou em contato via p=C3=A1gina de Contato do Centro Acad=C3=
+=AAmico.</h2>
+      <h2>A mensagem deixada foi:</h2>
+    <p>
+    	"aa"
+    </p>
+    	<h2>Para responder, envie um email para "aa@josta.com"</h2>
+    </p>
+  </body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_5a8ef2302cc6d_39672aad2862f3cc238b4--
+
+No template found for EmailController#form, rendering head :no_content
+Completed 204 No Content in 217ms
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 13:50:20 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Ve/snYmdRt7pmQ+YbQtp9xpxusI7ah+9eCcVjQwt7mraa6i4mqBrdxcZIA9b9hcn743Xi+xPgdrb8659Ute3A==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (0.9ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.3ms)
+EmailMailer#contact_email: processed outbound mail in 178.9ms
+Sent mail to grr.pride@gmail.com (7.3ms)
+Date: Thu, 22 Feb 2018 13:50:21 -0300
+To: grr.pride@gmail.com
+Message-ID: <5a8ef4cd3f5fb_3bc22b24f866fefc1804d@josta-pc.mail>
+Subject: Contato: nome
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a8ef4cd3e1c8_3bc22b24f866fefc17977";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a8ef4cd3e1c8_3bc22b24f866fefc17977
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=C3=A1. aa entrou em contato via p=C3=A1gina de Contato do Centro Acad=C3=
+=AAmico.
+
+A mensagem deixada foi:
+
+"aa"
+
+Para responder, envie um email para "aa@josta.com"
+
+----==_mimepart_5a8ef4cd3e1c8_3bc22b24f866fefc17977
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+  </head>
+  <body>
+    <h1>Ol=C3=A1</h1>
+    <p>
+      <h2>aa entrou em contato via p=C3=A1gina de Contato do Centro Acad=C3=
+=AAmico.</h2>
+      <h2>A mensagem deixada foi:</h2>
+    <p>
+    	"aa"
+    </p>
+    	<h2>Para responder, envie um email para "aa@josta.com"</h2>
+    </p>
+  </body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_5a8ef4cd3e1c8_3bc22b24f866fefc17977--
+
+No template found for EmailController#form, rendering head :no_content
+Completed 204 No Content in 505ms
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 13:51:07 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Ve/snYmdRt7pmQ+YbQtp9xpxusI7ah+9eCcVjQwt7mraa6i4mqBrdxcZIA9b9hcn743Xi+xPgdrb8659Ute3A==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (0.5ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.5ms)
+EmailMailer#contact_email: processed outbound mail in 11.0ms
+Completed 500 Internal Server Error in 15ms
+
+
+  
+TypeError (no implicit conversion of Symbol into String):
+  
+app/mailers/email_mailer.rb:10:in `+'
+app/mailers/email_mailer.rb:10:in `contact_email'
+app/controllers/email_controller.rb:7:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 13:51:17 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Ve/snYmdRt7pmQ+YbQtp9xpxusI7ah+9eCcVjQwt7mraa6i4mqBrdxcZIA9b9hcn743Xi+xPgdrb8659Ute3A==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (0.4ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.3ms)
+EmailMailer#contact_email: processed outbound mail in 26.2ms
+Completed 500 Internal Server Error in 33ms
+
+
+  
+NameError (undefined local variable or method `nome' for #<EmailMailer:0x007fcc809a9c88>
+Did you mean?  @nome
+               name):
+  
+app/mailers/email_mailer.rb:10:in `contact_email'
+app/controllers/email_controller.rb:7:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 13:51:41 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Ve/snYmdRt7pmQ+YbQtp9xpxusI7ah+9eCcVjQwt7mraa6i4mqBrdxcZIA9b9hcn743Xi+xPgdrb8659Ute3A==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (0.4ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.3ms)
+EmailMailer#contact_email: processed outbound mail in 7.8ms
+Sent mail to grr.pride@gmail.com (2.9ms)
+Date: Thu, 22 Feb 2018 13:51:41 -0300
+To: grr.pride@gmail.com
+Message-ID: <5a8ef51d7fefd_3bc22b24f866fdd01847c@josta-pc.mail>
+Subject: Contato: nome
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a8ef51d7f363_3bc22b24f866fdd018314";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a8ef51d7f363_3bc22b24f866fdd018314
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=C3=A1. aa entrou em contato via p=C3=A1gina de Contato do Centro Acad=C3=
+=AAmico.
+
+A mensagem deixada foi:
+
+"aa"
+
+Para responder, envie um email para "aa@josta.com"
+
+----==_mimepart_5a8ef51d7f363_3bc22b24f866fdd018314
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+  </head>
+  <body>
+    <h1>Ol=C3=A1</h1>
+    <p>
+      <h2>aa entrou em contato via p=C3=A1gina de Contato do Centro Acad=C3=
+=AAmico.</h2>
+      <h2>A mensagem deixada foi:</h2>
+    <p>
+    	"aa"
+    </p>
+    	<h2>Para responder, envie um email para "aa@josta.com"</h2>
+    </p>
+  </body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_5a8ef51d7f363_3bc22b24f866fdd018314--
+
+No template found for EmailController#form, rendering head :no_content
+Completed 204 No Content in 26ms
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 13:52:17 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Ve/snYmdRt7pmQ+YbQtp9xpxusI7ah+9eCcVjQwt7mraa6i4mqBrdxcZIA9b9hcn743Xi+xPgdrb8659Ute3A==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (0.8ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.4ms)
+EmailMailer#contact_email: processed outbound mail in 9.1ms
+Sent mail to grr.pride@gmail.com (2.0ms)
+Date: Thu, 22 Feb 2018 13:52:17 -0300
+To: grr.pride@gmail.com
+Message-ID: <5a8ef54157820_3bc22b24f866ff9c1863b@josta-pc.mail>
+Subject: Contato: nome
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a8ef54156fad_3bc22b24f866ff9c1857d";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a8ef54156fad_3bc22b24f866ff9c1857d
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=C3=A1. aa entrou em contato via p=C3=A1gina de Contato do Centro Acad=C3=
+=AAmico.
+
+A mensagem deixada foi:
+
+"aa"
+
+Para responder, envie um email para "aa@josta.com"
+
+----==_mimepart_5a8ef54156fad_3bc22b24f866ff9c1857d
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+  </head>
+  <body>
+    <h1>Ol=C3=A1</h1>
+    <p>
+      <h2>aa entrou em contato via p=C3=A1gina de Contato do Centro Acad=C3=
+=AAmico.</h2>
+      <h2>A mensagem deixada foi:</h2>
+    <p>
+    	"aa"
+    </p>
+    	<h2>Para responder, envie um email para "aa@josta.com"</h2>
+    </p>
+  </body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_5a8ef54156fad_3bc22b24f866ff9c1857d--
+
+No template found for EmailController#form, rendering head :no_content
+Completed 204 No Content in 22ms
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 13:52:54 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Ve/snYmdRt7pmQ+YbQtp9xpxusI7ah+9eCcVjQwt7mraa6i4mqBrdxcZIA9b9hcn743Xi+xPgdrb8659Ute3A==", "person"=>{"name"=>"aa", "email"=>"aa@josta.com", "message"=>"aa"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (0.6ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.3ms)
+EmailMailer#contact_email: processed outbound mail in 10.1ms
+Sent mail to grr.pride@gmail.com (2.1ms)
+Date: Thu, 22 Feb 2018 13:52:54 -0300
+To: grr.pride@gmail.com
+Message-ID: <5a8ef566a41f9_3bc22b24f866fefc18880@josta-pc.mail>
+Subject: Contato: nome
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a8ef566a393f_3bc22b24f866fefc1871d";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a8ef566a393f_3bc22b24f866fefc1871d
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=C3=A1. aa entrou em contato via p=C3=A1gina de Contato do Centro Acad=C3=
+=AAmico.
+
+A mensagem deixada foi:
+
+"aa"
+
+Para responder, envie um email para "aa@josta.com"
+
+----==_mimepart_5a8ef566a393f_3bc22b24f866fefc1871d
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+  </head>
+  <body>
+    <h1>Ol=C3=A1</h1>
+    <p>
+      <h2>aa entrou em contato via p=C3=A1gina de Contato do Centro Acad=C3=
+=AAmico.</h2>
+      <h2>A mensagem deixada foi:</h2>
+    <p>
+    	"aa"
+    </p>
+    	<h2>Para responder, envie um email para "aa@josta.com"</h2>
+    </p>
+  </body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_5a8ef566a393f_3bc22b24f866fefc1871d--
+
+No template found for EmailController#form, rendering head :no_content
+Completed 204 No Content in 26ms
+
+

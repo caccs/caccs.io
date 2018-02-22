@@ -1,17 +1,17 @@
 require "rails_helper"
 
 RSpec.describe EmailMailer, type: :mailer do
-  describe "form" do
-    let(:mail) { EmailMailer.form }
+  describe "contact_email" do
+    let(:mail) { EmailMailer.contact_email('aa', 'aa@aa.com', 'aa') }
 
     it "renders the headers" do
-      expect(mail.subject).to eq("Form")
-      expect(mail.to).to eq(["to@example.org"])
-      expect(mail.from).to eq(["from@example.com"])
+      expect(mail.subject).to eq('Contato: aa')
+      expect(mail.to).to eq(['grr.pride@gmail.com'])
+      expect(mail.from).to eq(['aa@aa.com'])
     end
 
     it "renders the body" do
-      expect(mail.body.encoded).to match("Hi")
+      expect(mail.body.encoded).to match('aa')
     end
   end
 

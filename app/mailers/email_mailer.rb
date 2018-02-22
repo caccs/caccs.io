@@ -1,11 +1,12 @@
 class EmailMailer < ApplicationMailer
-  def contact_email(name, email, message)
-    @nome = name
+  default to: 'grr.pride@gmail.com'
+  def contact_email(nome, email, message)
+    @nome = nome
     @email = email
     @mensagem = message
 
-    mail(subject: 'Welcome to My Awesome Site')
+    mail(to: 'grr.pride@gmail.com', from: email, subject: 'Contato: ' + nome)
 
-    puts "foi"
+    puts "Contato: " + nome
   end
 end
