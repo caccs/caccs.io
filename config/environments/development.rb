@@ -27,17 +27,16 @@ Rails.application.configure do
   end
 
   # Don't care if the mailer can't send.
-  config.action_mailer.raise_delivery_errors = false
-
+  config.action_mailer.raise_delivery_errors = true
   config.action_mailer.perform_caching = false
-
+  config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-   :address              => "in-v3.mailjet.com",
-   :port                 => 587,
-   :user_name            => 'f0587d2ecd8113eca24831448b2e634d',
-   :password             => '9841bc1a7de85f33412e74ac19eb7656',
-   :authentication       => "plain",
-   :enable_starttls_auto => true
+    :address => ENV['MAILJET_SERVER'],
+    :port => ENV['MAILJET_PORT'],
+    :user_name => ENV['MAILJET_USER'],
+    :password => ENV['MAILJET_PASS']
+    :authentication => :plain,
+    :enable_starttls_auto => true,
   }
 
   # Print deprecation notices to the Rails logger.

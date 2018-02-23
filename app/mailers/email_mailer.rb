@@ -5,8 +5,9 @@ class EmailMailer < ApplicationMailer
     @email = email
     @mensagem = message
 
-    mail(to: 'grr.pride@gmail.com', from: email, subject: 'Contato: ' + nome)
+    headers['X-SMTPAPI'] = '{"category": "Contato"}'
 
-    puts "Contato: " + nome
+    mail(to: 'grr.pride@gmail.com', from: 'grr.pride@gmail.com', reply_to: email,
+    	subject: 'Contato: ' + nome, keywords: 'Contato')
   end
 end

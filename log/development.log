@@ -8643,3 +8643,994 @@ Processing by PagesController#contact as HTML
 Completed 200 OK in 47ms (Views: 46.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-02-22 17:28:25 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_rails_default.html.erb (278.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 428ms (Views: 287.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 17:28:32 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (4.0ms)
+  Rendered pages/contact.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_rails_default.html.erb (30.6ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 43ms (Views: 42.3ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 17:28:43 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"10RrPB5Ypzn9pVbKWf898ar+juVdgc6q3v40ZN3BfUmBenosihRTj1pfVnQFJMgK6Sl/UHrdWNNAcWaLHLqULA==", "person"=>{"name"=>"Josta", "email"=>"Josta@jostavinhus.com", "message"=>"Testando"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (0.4ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.3ms)
+EmailMailer#contact_email: processed outbound mail in 271.5ms
+Sent mail to grr.pride@gmail.com (3810.7ms)
+Date: Thu, 22 Feb 2018 17:28:43 -0300
+To: grr.pride@gmail.com
+Message-ID: <5a8f27fbe71a0_6ebe2ae5c648246c415c3@josta-pc.mail>
+Subject: Contato: Josta
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a8f27fbe5f0c_6ebe2ae5c648246c414a0";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a8f27fbe5f0c_6ebe2ae5c648246c414a0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=C3=A1. Josta entrou em contato via p=C3=A1gina de Contato do Centro Ac=
+ad=C3=AAmico.
+
+A mensagem deixada foi:
+
+"Testando"
+
+Para responder, envie um email para "Josta@jostavinhus.com"
+
+----==_mimepart_5a8f27fbe5f0c_6ebe2ae5c648246c414a0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+  </head>
+  <body>
+    <h1>Ol=C3=A1</h1>
+    <p>
+      <h2>Josta entrou em contato via p=C3=A1gina de Contato do Centro Ac=
+ad=C3=AAmico.</h2>
+      <h2>A mensagem deixada foi:</h2>
+    <p>
+    	"Testando"
+    </p>
+    	<h2>Para responder, envie um email para "Josta@jostavinhus.com"</h2>=
+
+    </p>
+  </body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_5a8f27fbe5f0c_6ebe2ae5c648246c414a0--
+
+Redirected to http://localhost:3000/contact
+Completed 302 Found in 4207ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 17:28:47 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.7ms)
+  Rendered pages/contact.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (27.0ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 34.3ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 17:31:21 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hAKtAILuu+U0Hu0eVtbcg2hWrud1ZTbsETzqpunqC0I/n53g7jJzv7MELvHajMHDK7I473AlGcKaDYLHs6uxkw==", "person"=>{"name"=>"Josta", "email"=>"Jostavo@jostavus.com", "message"=>"i123"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (0.9ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.4ms)
+EmailMailer#contact_email: processed outbound mail in 176.5ms
+Sent mail to grr.pride@gmail.com (1934.2ms)
+Date: Thu, 22 Feb 2018 17:31:22 -0300
+To: grr.pride@gmail.com
+Message-ID: <5a8f289a53204_6fb92b10a72963a4350da@josta-pc.mail>
+Subject: Contato: Josta
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a8f289a52142_6fb92b10a72963a4349e8";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a8f289a52142_6fb92b10a72963a4349e8
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=C3=A1. Josta entrou em contato via p=C3=A1gina de Contato do Centro Ac=
+ad=C3=AAmico.
+
+A mensagem deixada foi:
+
+"i123"
+
+Para responder, envie um email para "Jostavo@jostavus.com"
+
+----==_mimepart_5a8f289a52142_6fb92b10a72963a4349e8
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+  </head>
+  <body>
+    <h1>Ol=C3=A1</h1>
+    <p>
+      <h2>Josta entrou em contato via p=C3=A1gina de Contato do Centro Ac=
+ad=C3=AAmico.</h2>
+      <h2>A mensagem deixada foi:</h2>
+    <p>
+    	"i123"
+    </p>
+    	<h2>Para responder, envie um email para "Jostavo@jostavus.com"</h2>
+    </p>
+  </body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_5a8f289a52142_6fb92b10a72963a4349e8--
+
+Redirected to http://localhost:3000/contact
+Completed 302 Found in 2414ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 17:31:24 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (4.8ms)
+  Rendered pages/contact.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_rails_default.html.erb (186.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 199ms (Views: 198.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 17:41:56 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_rails_default.html.erb (218.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 501ms (Views: 229.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 17:41:58 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (6.2ms)
+  Rendered pages/contact.html.erb within layouts/application (7.6ms)
+  Rendered layouts/_rails_default.html.erb (48.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 65ms (Views: 63.6ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 17:42:04 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Wbq0+0xS8zcanTGVgwSOIZ64niSLK1Hr9+4jpaCHhecPhKXr2B4Hgb1nMSvf33va3W9vkax3x5JpYXFKYfxsgg==", "person"=>{"name"=>"teste", "email"=>"teste@teste.com", "message"=>"123"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (0.5ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.3ms)
+EmailMailer#contact_email: processed outbound mail in 178.6ms
+Sent mail to grr.pride@gmail.com (2413.8ms)
+Date: Thu, 22 Feb 2018 17:42:05 -0300
+To: grr.pride@gmail.com
+Message-ID: <5a8f2b1d18908_72fb2ac91e11e27c83868@josta-pc.mail>
+Subject: Contato: teste
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a8f2b1d1765a_72fb2ac91e11e27c8373";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a8f2b1d1765a_72fb2ac91e11e27c8373
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=C3=A1. teste entrou em contato via p=C3=A1gina de Contato do Centro Ac=
+ad=C3=AAmico.
+
+A mensagem deixada foi:
+
+"123"
+
+Para responder, envie um email para "teste@teste.com"
+
+----==_mimepart_5a8f2b1d1765a_72fb2ac91e11e27c8373
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+  </head>
+  <body>
+    <h1>Ol=C3=A1</h1>
+    <p>
+      <h2>teste entrou em contato via p=C3=A1gina de Contato do Centro Ac=
+ad=C3=AAmico.</h2>
+      <h2>A mensagem deixada foi:</h2>
+    <p>
+    	"123"
+    </p>
+    	<h2>Para responder, envie um email para "teste@teste.com"</h2>
+    </p>
+  </body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_5a8f2b1d1765a_72fb2ac91e11e27c8373--
+
+Redirected to http://localhost:3000/contact
+Completed 302 Found in 2747ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 17:42:07 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (31.3ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 40ms (Views: 39.0ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 17:45:00 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PeJpDoVG0on8UCXvCaLkQVM3sYO/EFsb4cM/bKbO9A6Gf1nu6Zoa03tK5gCF+PkBENMni7pQdDVq8lcN/I9O3w==", "person"=>{"name"=>"teste", "email"=>"t@t.com", "message"=>"t"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (0.7ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.5ms)
+EmailMailer#contact_email: processed outbound mail in 12.5ms
+Sent mail to grr.pride@gmail.com (2401.7ms)
+Date: Thu, 22 Feb 2018 17:45:01 -0300
+To: grr.pride@gmail.com
+Message-ID: <5a8f2bcd6897_72fb2ac91e11e1dc8409@josta-pc.mail>
+Subject: Contato: teste
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a8f2bcd5825_72fb2ac91e11e1dc8393b";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a8f2bcd5825_72fb2ac91e11e1dc8393b
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=C3=A1. teste entrou em contato via p=C3=A1gina de Contato do Centro Ac=
+ad=C3=AAmico.
+
+A mensagem deixada foi:
+
+"t"
+
+Para responder, envie um email para "t@t.com"
+
+----==_mimepart_5a8f2bcd5825_72fb2ac91e11e1dc8393b
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+  </head>
+  <body>
+    <h1>Ol=C3=A1</h1>
+    <p>
+      <h2>teste entrou em contato via p=C3=A1gina de Contato do Centro Ac=
+ad=C3=AAmico.</h2>
+      <h2>A mensagem deixada foi:</h2>
+    <p>
+    	"t"
+    </p>
+    	<h2>Para responder, envie um email para "t@t.com"</h2>
+    </p>
+  </body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_5a8f2bcd5825_72fb2ac91e11e1dc8393b--
+
+Redirected to http://localhost:3000/contact
+Completed 302 Found in 2422ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 17:45:03 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.6ms)
+  Rendered pages/contact.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_rails_default.html.erb (27.4ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 38ms (Views: 37.3ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 17:52:27 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (4.6ms)
+  Rendered pages/contact.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_rails_default.html.erb (190.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 420ms (Views: 204.1ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 17:52:35 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TtWPei/zigsIWEudXb5BVEQnw5csaaUmT7rLfXm3QCT1SL+aQy9CUY9CiHLR5FwUB8NVnykpigjEi6McI/b69Q==", "person"=>{"name"=>"teste", "email"=>"t@t.com", "message"=>"t"}, "commit"=>"Enviar"}
+EmailMailer#contact_email: processed outbound mail in 1470.3ms
+Completed 500 Internal Server Error in 1479ms
+
+
+  
+Mailjet::ApiError (error 400 while sending #<RestClient::Resource:0x007fd3c00ca198 @url="https://api.mailjet.com/v3.1/send", @block=nil, @options={:public_operations=>[:post], :read_only=>nil, :perform_api_call=>true, :user=>"f0587d2ecd8113eca24831448b2e634d", :password=>"9841bc1a7de85f33412e74ac19eb7656", :content_type=>"application/json"}> to https://api.mailjet.com/v3.1/send with {"FromEmail"=>"t@t.com", "FromName"=>"teste", "Subject"=>"Contato: teste", "Text-part"=>"t", "Recipients"=>[{"email"=>"grr.pride@gmail.com"}]}
+
+"{\"Errors\":[{\"ErrorIdentifier\":\"5e831324-7e19-4e67-b9ff-9280fc54509d\",\"ErrorCode\":\"mj-0003\",\"StatusCode\":400,\"ErrorMessage\":\"Missing mandatory property.\",\"ErrorRelatedTo\":[\"Messages\"]},{\"ErrorIdentifier\":\"f10fd895-9eee-43fd-8865-e4d24f96aeef\",\"ErrorCode\":\"send-0001\",\"StatusCode\":400,\"ErrorMessage\":\"Not a valid property.\",\"ErrorRelatedTo\":[\"FromEmail\",\"FromName\",\"Subject\",\"Text-part\",\"Recipients\"]}],\"Messages\":[]}"
+
+Please see https://dev.mailjet.com/guides/#status-codes for more informations on error numbers.
+
+):
+  
+app/mailers/email_mailer.rb:14:in `contact_email'
+app/controllers/email_controller.rb:7:in `form'
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 17:53:13 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (2.3ms)
+  Rendered pages/contact.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_rails_default.html.erb (47.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 59ms (Views: 58.4ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 17:53:18 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AxtudsOzRhFhH9wnE8sIaaJABfCTRcCUYmK/Chbiu++4hl6Wr2+OS+YFH8ifkRUp4aST+JYF77rpU9drTKMBPg==", "person"=>{"name"=>"t", "email"=>"t@t.com", "message"=>"t"}, "commit"=>"Enviar"}
+EmailMailer#contact_email: processed outbound mail in 1077.8ms
+Completed 500 Internal Server Error in 1088ms
+
+
+  
+Mailjet::ApiError (error 400 while sending #<RestClient::Resource:0x007fd3c40892e8 @url="https://api.mailjet.com/v3.1/send", @block=nil, @options={:public_operations=>[:post], :read_only=>nil, :perform_api_call=>true, :user=>"f0587d2ecd8113eca24831448b2e634d", :password=>"9841bc1a7de85f33412e74ac19eb7656", :content_type=>"application/json"}> to https://api.mailjet.com/v3.1/send with {"FromEmail"=>"t@t.com", "FromName"=>"t", "Subject"=>"Contato: t", "Text-part"=>"t", "Recipients"=>[{"email"=>"grr.pride@gmail.com"}]}
+
+"{\"Errors\":[{\"ErrorIdentifier\":\"c78e15d9-ebd6-43cc-8684-c5e98680bb90\",\"ErrorCode\":\"send-0001\",\"StatusCode\":400,\"ErrorMessage\":\"Not a valid property.\",\"ErrorRelatedTo\":[\"Recipients\",\"FromEmail\",\"FromName\",\"Subject\",\"Text-part\"]},{\"ErrorIdentifier\":\"c543079d-a447-4267-899f-6b157d9c2606\",\"ErrorCode\":\"mj-0003\",\"StatusCode\":400,\"ErrorMessage\":\"Missing mandatory property.\",\"ErrorRelatedTo\":[\"Messages\"]}],\"Messages\":[]}"
+
+Please see https://dev.mailjet.com/guides/#status-codes for more informations on error numbers.
+
+):
+  
+app/mailers/email_mailer.rb:14:in `contact_email'
+app/controllers/email_controller.rb:7:in `form'
+Started GET "/" for 127.0.0.1 at 2018-02-22 17:58:28 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_rails_default.html.erb (39.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 50ms (Views: 49.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 17:58:30 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.4ms)
+  Rendered pages/contact.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_rails_default.html.erb (29.1ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 39ms (Views: 38.4ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 17:58:34 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"draTrD7/25qmSupNg0Ij9nqhlDYefbZNw1a1KWewwawgiIK8qrMvLAGw6vPfmdYNOXZlgzkhIDRd2efGpssoyQ==", "person"=>{"name"=>"t", "email"=>"t@t.com", "message"=>"t"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (0.7ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.5ms)
+EmailMailer#contact_email: processed outbound mail in 210.5ms
+Sent mail to grr.pride@gmail.com (5.2ms)
+Date: Thu, 22 Feb 2018 17:58:34 -0300
+To: grr.pride@gmail.com
+Message-ID: <5a8f2efa7739f_764a2ae9cdaea600873c@josta-pc.mail>
+Subject: Contato: t
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a8f2efa7625c_764a2ae9cdaea6008626";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a8f2efa7625c_764a2ae9cdaea6008626
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=C3=A1. t entrou em contato via p=C3=A1gina de Contato do Centro Acad=C3=
+=AAmico.
+
+A mensagem deixada foi:
+
+"t"
+
+Para responder, envie um email para "t@t.com"
+
+----==_mimepart_5a8f2efa7625c_764a2ae9cdaea6008626
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+  </head>
+  <body>
+    <h1>Ol=C3=A1</h1>
+    <p>
+      <h2>t entrou em contato via p=C3=A1gina de Contato do Centro Acad=C3=
+=AAmico.</h2>
+      <h2>A mensagem deixada foi:</h2>
+    <p>
+    	"t"
+    </p>
+    	<h2>Para responder, envie um email para "t@t.com"</h2>
+    </p>
+  </body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_5a8f2efa7625c_764a2ae9cdaea6008626--
+
+Redirected to http://localhost:3000/contact
+Completed 302 Found in 221ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 17:58:34 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_rails_default.html.erb (27.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 35.5ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 18:02:09 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"w4xg8M6xlTofnXdWpXhs8OmhiYXYJr+zJ+DUfvH7BFZ4EVAQom1dYJiHtLkpInGwqkUfjd1mkJ2s0bwfq7q+hw==", "person"=>{"name"=>"t", "email"=>"t@t.com", "message"=>"t"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (0.5ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.6ms)
+EmailMailer#contact_email: processed outbound mail in 10.9ms
+Completed 500 Internal Server Error in 19ms
+
+
+  
+Errno::ECONNREFUSED (Connection refused - connect(2) for "localhost" port 25):
+  
+app/controllers/email_controller.rb:7:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 18:07:00 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"w4xg8M6xlTofnXdWpXhs8OmhiYXYJr+zJ+DUfvH7BFZ4EVAQom1dYJiHtLkpInGwqkUfjd1mkJ2s0bwfq7q+hw==", "person"=>{"name"=>"t", "email"=>"t@t.com", "message"=>"t"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (0.5ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.4ms)
+EmailMailer#contact_email: processed outbound mail in 9.6ms
+Sent mail to grr.pride@gmail.com (2.5ms)
+Date: Thu, 22 Feb 2018 18:07:00 -0300
+To: grr.pride@gmail.com
+Message-ID: <5a8f30f492587_764a2ae9cdaea6009056@josta-pc.mail>
+Subject: Contato: t
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a8f30f49193f_764a2ae9cdaea600895d";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a8f30f49193f_764a2ae9cdaea600895d
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=C3=A1. t entrou em contato via p=C3=A1gina de Contato do Centro Acad=C3=
+=AAmico.
+
+A mensagem deixada foi:
+
+"t"
+
+Para responder, envie um email para "t@t.com"
+
+----==_mimepart_5a8f30f49193f_764a2ae9cdaea600895d
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+  </head>
+  <body>
+    <h1>Ol=C3=A1</h1>
+    <p>
+      <h2>t entrou em contato via p=C3=A1gina de Contato do Centro Acad=C3=
+=AAmico.</h2>
+      <h2>A mensagem deixada foi:</h2>
+    <p>
+    	"t"
+    </p>
+    	<h2>Para responder, envie um email para "t@t.com"</h2>
+    </p>
+  </body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_5a8f30f49193f_764a2ae9cdaea600895d--
+
+Redirected to http://localhost:3000/contact
+Completed 302 Found in 18ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 18:07:00 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.3ms)
+  Rendered pages/contact.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_rails_default.html.erb (28.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 36.1ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-22 18:07:18 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9YU5W5E3S1+siEuKxD+H5Iy5l5wUd+49xDpPQx6uv5JOGAm7/euDBSuSiGVIZZqkz10BlBE3wRNPCyciRO8FQw==", "person"=>{"name"=>"t", "email"=>"t@t.com", "message"=>"t"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (0.9ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.5ms)
+EmailMailer#contact_email: processed outbound mail in 12.8ms
+Completed 500 Internal Server Error in 20ms
+
+
+  
+Errno::ECONNREFUSED (Connection refused - connect(2) for "localhost" port 25):
+  
+app/controllers/email_controller.rb:7:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 18:10:16 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9YU5W5E3S1+siEuKxD+H5Iy5l5wUd+49xDpPQx6uv5JOGAm7/euDBSuSiGVIZZqkz10BlBE3wRNPCyciRO8FQw==", "person"=>{"name"=>"t", "email"=>"t@t.com", "message"=>"t"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (0.5ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.5ms)
+EmailMailer#contact_email: processed outbound mail in 11.2ms
+Completed 500 Internal Server Error in 13ms
+
+
+  
+Errno::ECONNREFUSED (Connection refused - connect(2) for "localhost" port 25):
+  
+app/controllers/email_controller.rb:7:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 18:14:32 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9YU5W5E3S1+siEuKxD+H5Iy5l5wUd+49xDpPQx6uv5JOGAm7/euDBSuSiGVIZZqkz10BlBE3wRNPCyciRO8FQw==", "person"=>{"name"=>"t", "email"=>"t@t.com", "message"=>"t"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (0.8ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.4ms)
+EmailMailer#contact_email: processed outbound mail in 297.5ms
+Completed 500 Internal Server Error in 2583ms
+
+
+  
+ArgumentError (SMTP From address may not be blank: nil):
+  
+app/controllers/email_controller.rb:7:in `form'
+Started POST "/form" for 127.0.0.1 at 2018-02-22 18:15:13 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9YU5W5E3S1+siEuKxD+H5Iy5l5wUd+49xDpPQx6uv5JOGAm7/euDBSuSiGVIZZqkz10BlBE3wRNPCyciRO8FQw==", "person"=>{"name"=>"t", "email"=>"t@t.com", "message"=>"t"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (0.9ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.3ms)
+EmailMailer#contact_email: processed outbound mail in 339.5ms
+Redirected to http://localhost:3000/contact
+Completed 302 Found in 4401ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-22 18:15:17 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (4.6ms)
+  Rendered pages/contact.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_rails_default.html.erb (220.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 233ms (Views: 232.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-23 16:31:18 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (7.2ms)
+  Rendered layouts/_rails_default.html.erb (478.3ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_show.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 1773ms (Views: 574.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-23 16:31:22 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (41.6ms)
+  Rendered pages/contact.html.erb within layouts/application (57.8ms)
+  Rendered layouts/_rails_default.html.erb (31.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_show.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 114ms (Views: 95.8ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-23 16:31:30 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"50xvET1UpKAQvga/MWoA0/IxorTaNyf0hGfpLTJ0bz+xcn4BqRhQFrdEBgFtsfUoseZTAf1rsY0a6LvC8w+GWg==", "person"=>{"name"=>"fall", "email"=>"into@sleep.com", "message"=>"t"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (1.4ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (1.2ms)
+EmailMailer#contact_email: processed outbound mail in 757.9ms
+Redirected to http://localhost:3000/contact
+Completed 302 Found in 4082ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-23 16:31:34 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.9ms)
+  Rendered pages/contact.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_rails_default.html.erb (27.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 35.1ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-23 16:33:28 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5jFktnXr0OAzkmAzn9hovewZYDKotJ3JZNetGpxw1f5drFRWGTcYurSIo9wTgnX9r/32Oq30sufv5sV7xjFvLw==", "person"=>{"name"=>"answe", "email"=>"to@to.com", "message"=>"t"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (1.2ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.5ms)
+EmailMailer#contact_email: processed outbound mail in 12.0ms
+Redirected to http://localhost:3000/contact
+Completed 302 Found in 3055ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-23 16:33:31 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (1.2ms)
+  Rendered pages/contact.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_rails_default.html.erb (38.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_show.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 50ms (Views: 48.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-23 16:46:00 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_rails_default.html.erb (204.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_show.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 435ms (Views: 214.8ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-23 16:46:02 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (7.2ms)
+  Rendered pages/contact.html.erb within layouts/application (8.4ms)
+  Rendered layouts/_rails_default.html.erb (37.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_show.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 55ms (Views: 53.4ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-23 16:46:24 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LZrCsTKJycA1zm9ukGV6bOICrQqqnrDmLopwuCLmQm57pNOhpsU9dpI0b9DMvo+XodVcv43CJp+wBSJX452rCw==", "person"=>{"name"=>"Jostavo", "email"=>"josta@josta.com", "message"=>"Olá galera, vocês podem me ajudar com uns problemas internos no curso?? Obrigado!"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (0.6ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.5ms)
+EmailMailer#contact_email: processed outbound mail in 263.8ms
+Redirected to http://localhost:3000/contact
+Completed 302 Found in 3194ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-23 16:46:27 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (0.8ms)
+  Rendered pages/contact.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (27.8ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_show.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 37ms (Views: 36.2ms)
+
+
+Started POST "/form" for 127.0.0.1 at 2018-02-23 17:00:53 -0300
+Processing by EmailController#form as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hU7A2qMhVvZqgA74RU8Vf+ZG0GfQUu9k9gZG5oDXOWQ+0/A6z/2erO2azRfJFQg/paJGb9USwEp9Ny6H2paDtQ==", "person"=>{"name"=>"Josta", "email"=>"jostinh@josta.com", "message"=>"ahahahaha"}, "commit"=>"Enviar"}
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (3.3ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.6ms)
+EmailMailer#contact_email: processed outbound mail in 267.7ms
+Redirected to http://localhost:3000/contact
+Completed 302 Found in 3311ms
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-23 17:00:56 -0300
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered email/_form.html.erb (5.0ms)
+  Rendered pages/contact.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_rails_default.html.erb (188.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_show.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 203ms (Views: 202.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-23 17:03:28 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_rails_default.html.erb (37.8ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_show.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 47ms (Views: 46.4ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-02-23 17:03:32 -0300
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_rails_default.html.erb (25.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 51ms (Views: 30.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-23 17:03:34 -0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_rails_default.html.erb (55.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_show.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 67ms (Views: 66.3ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-23 17:03:35 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_rails_default.html.erb (48.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 73ms (Views: 61.3ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-23 17:03:37 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_rails_default.html.erb (34.0ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_show.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 46ms (Views: 44.4ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-02-23 17:03:39 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_rails_default.html.erb (36.6ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_show.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 47ms (Views: 46.0ms)
+
+
