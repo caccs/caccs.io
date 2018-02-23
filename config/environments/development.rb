@@ -35,7 +35,7 @@ Rails.application.configure do
     :port => ENV['MAILJET_PORT'],
     :user_name => ENV['MAILJET_USER'],
     :password => ENV['MAILJET_PASS']
-    :authentication => :plain,
+    :authentication => 'plain',
     :enable_starttls_auto => true,
   }
 
