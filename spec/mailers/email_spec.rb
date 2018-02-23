@@ -2,7 +2,7 @@ require "rails_helper"
 
 RSpec.describe EmailMailer, type: :mailer do
   describe "contact_email" do
-    let(:mail) { EmailMailer.contact_email('aa', 'aa@aa.com', 'aa') }
+    let(:mail) { EmailMailer.contact_email('aa', 'grr.pride@gmail.com', 'aa') }
 
     it "renders the headers" do
       expect(mail.subject).to eq('Contato: aa')
