@@ -27,12 +27,21 @@ Rails.application.configure do
 
   # Disable request forgery protection in test environment.
   config.action_controller.allow_forgery_protection = false
-  config.action_mailer.perform_caching = false
 
   # Tell Action Mailer not to deliver emails to the real world.
   # The :test delivery method accumulates sent emails in the
   # ActionMailer::Base.deliveries array.
-  config.action_mailer.delivery_method = :test
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.perform_caching = false
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.smtp_settings = {
+    :address => ENV['MAILJET_SERVER'],
+    :port => ENV['MAILJET_PORT'],
+    :user_name => ENV['MAILJET_USER'],
+    :password => ENV['MAILJET_PASS'],
+    :authentication => 'plain',
+    :enable_starttls_auto => true,
+  }
 
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
