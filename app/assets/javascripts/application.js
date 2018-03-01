@@ -11,7 +11,10 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery_ujs
-//= require rails-ujs
 //= require turbolinks
+//= require jquery_ujs
+//= require parsley
+//= require rails-ujs
+//= require calendar/fullcalendar.js
+//= require calendar/fullcalendar.min.js
 //= require_tree .

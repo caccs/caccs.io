@@ -1,2 +1,162 @@
-<h1>Pages#about</h1>
-<p>Find me in app/views/pages/about.html.erb</p>
+<% provide(:title, "Sobre") %>
+<% content_for :scripts do %>
+<style>
+body {
+  padding-top: 75px;
+}
+.img-circle {
+  max-width: 200px;
+  max-height: 200px;
+}
+.centered {
+  width: 600px;
+}
+.thumbnail {
+  border-style: none;
+  background-color: transparent;
+}
+.caption {
+  background-color: white;
+  border-radius: 30px;
+}
+.jumbotron p {
+  margin: 0;
+}
+#consulta-relativa {
+  margin: 15px 0;
+}
+.alert {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.table {
+  margin-bottom: 0;
+}
+#selectList {
+  border: 0;
+  border-radius: 6px;
+  box-shadow: none;
+}
+#selectList2 {
+  border: 0;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: none;
+}
+#custom-search-input{
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+#custom-search-input input {
+  border: 0;
+  box-shadow: none;
+}
+#custom-search-input button{
+  margin: 2px 0 0 0;
+  background: none;
+  box-shadow: none;
+  border: 0;
+  color: #666666;
+  padding: 0 8px 0 10px;
+  border-left: solid 1px #ccc;
+}
+#custom-search-input button:hover{
+  border: 0;
+  box-shadow: none;
+  border-left: solid 1px #ccc;
+}
+#custom-search-input .glyphicon-search{
+  font-size: 23px;
+}
+</style>
+<% end %>
+
+<div class="container">
+
+<div class="page-header">
+        <h1>O Centro Acadêmico</h1>
+
+        <center><%= image_tag("logo.png", style: "width: 200px; height: 200px;") %></center>
+		</br>
+        <p class="lead" align="justify">
+        	O C.A. é uma entidade estudantil constituida pelos alunos do mesmo curso, tem como objetivo levar a demanda do curso perante os conselhos que existem dentro da universidade, isso tudo, para lutar pela melhoria do curso; seja opinando nas ementas do curso, no projeto pedagógico e também na infraestrutura da universidade. Essa entidade também é responsável por mantêr projetos com caráter social, como por exemplo este projeto, o Manual dos Bixos, semana dos estudos, InstallFest, entre outros.
+        	</br>
+        	No nosso caso, nosso Centro Acadêmico é o <b>C.A.C.C.S - Pata do Bisão</b> e nesse momento contamos com mais de 10 membros ativos da gestão de 2017/2. Temos diversos projetos e estamos sempre querendo membros para poder ajudar neles! Se você tiver uma ideia muito bacana e/ou queira ajudar, <%= link_to "entre em contato",   contact_path %> conosco! Participem de nossas reuniões para que possamos cada vez melhorar nosso curso!
+		</p>
+</div>
+
+<div class="page-header">
+        <h1>O Projeto</h1>
+		
+        <p class="lead" align="justify">
+        	Realizados por membros e ex-membros do Centro Acadêmico, este projeto visa centralizar um grupo maior de projetos que estavam sendo desenvolvidos separados. Inicialmente, esta página serviria apenas um propósito: apresentar o projeto do Calendário do Curso ("caccs-lendario"), onde os alunos poderiam visualizar as datas de atividades das matérias do curso, separadas por semestre.</br>
+        	Após uma breve conversa entre membros, resolvemos transformar isto em uma mistura de vários outros projetos em andamento pelo Centro Acadêmico, desde um site até uma ferramenta de controle interna.
+		</p>
+</div>
+
+<h1>Desenvolvedores</h1>
+<br/>
+<div class="col-sm-4 col-md-4 perfil">
+	<div class="thumbnail">
+	<%= image_tag("pages/about/jovana.jpeg", class: "img-circle") %>
+	<div class="caption">
+		<h3 align="center">Giovana Morais</h3>
+		<p align="justify">Estudante de Ciência da Computação, baterista de surf-punk, fã de doguinhos, de memes matemáticos e de cochilos depois do almoço.</br><em>Boatos de que programa muito melhor sob efeito de vinho.</em></p>
+		<p align="center">
+			<a href="https://github.com/giovana-morais" class="btn btn-social-icon btn-github" style="font-size: 25px; color: black">
+				<i class="fa fa-github"></i>
+			</a>
+			<a href="https://www.linkedin.com/in/giovana-morais/" class="btn btn-linkedin" style="font-size: 25px; color: black">
+			<i class="fa fa-linkedin"></i>
+			</a>
+		</p>
+	</div>
+	</div>
+</div>
+
+<div class="col-sm-4 col-md-4 perfil">
+	<div class="thumbnail">
+	<%= image_tag("pages/about/josta.jpeg", class: "img-circle") %>
+	<div class="caption">
+		<h3 align="center">Gustavo Rodrigues</h3>
+		<p align="justify">Estudante de exatas com um pé em humanas, apaixonado por um mix de diversas áreas do conhecimento.<br />Praticante de Handebol, Natação, Desenho e jogador de Counter-Strike nas suas horas vagas. </p>
+		<p align="center">
+			<a href="https://github.com/darkkgreen" class="btn btn-social-icon btn-github" style="font-size: 25px; color: black">
+				<i class="fa fa-github"></i>
+			</a>
+			<a href="https://www.linkedin.com/in/darkkgreen" class="btn btn-linkedin" style="font-size: 25px; color: black">
+				<i class="fa fa-linkedin"></i>
+			</a>
+		</p>
+	</div>
+	</div>
+</div>
+
+<div class="col-sm-4 col-md-4 perfil">
+	<div class="thumbnail">
+	<%= image_tag("pages/about/maninho.jpeg", class: "img-circle") %>
+	<div class="caption">
+		<h3 align="center">Henrique Eihara</h3>
+		<p align="justify">Tomador de café profissional, realiza Lan Partys esporádicas para descontrair com os amigos e manda uns sampleys de guitarra em seu tempo livre. Sua paixão mesmo é a Tecnologia e Programação aliado com a inovação.</p>
+		<p align="center">
+			<a href="https://github.com/eiguike" class="btn btn-social-icon btn-github" style="font-size: 25px; color: black">
+				<i class="fa fa-github"></i>
+			</a>
+			<a href="https://www.linkedin.com/in/rickeihara" class="btn btn-linkedin" style="font-size: 25px; color: black">
+				<i class="fa fa-linkedin"></i>
+			</a>
+		</p>
+	</div>
+	</div>
+</div>
+
+<div class="col-sm-4 col-md-12" align="center">
+	<h1>Changelogs</h1>
+	<p align="justify">1.0 - 09/02/2018 - Ported project code to Rails<br /></p>
+	<p align="justify">1.1 - 19/02/2018 - Added RSpecs and CircleCI config files to the project<br /></p>
+	<p align="justify">1.2 - 27/02/2018 - Added mailing to Contact Page<br /></p>
+</div>
+  
+</div>

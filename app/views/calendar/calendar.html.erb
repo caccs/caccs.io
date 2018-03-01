@@ -4,11 +4,7 @@
 	<% javascript_include_tag "/calendar/fullcalendar.min.js" %>
 	<script type="text/javascript">
 		
-		/*
-			jQuery document ready
-		*/
-		
-		$(document).ready(function()
+		$(document).on('turbolinks:load', function ready()
 		{
 			/*
 				date store today date.
@@ -515,7 +511,6 @@
                 
                 ]
 			});
-
   			//#26B99A
   			//#9B59B6
   			//#BDC3C7
