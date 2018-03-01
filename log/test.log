@@ -479,3 +479,19 @@ EmailMailer#contact_email: processed outbound mail in 8.1ms
   Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.0ms)
 EmailMailer#contact_email: processed outbound mail in 1.9ms
   [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (632.6ms)[0m  [1m[35mDROP DATABASE IF EXISTS "test"[0m
+  [1m[35m (1693.7ms)[0m  [1m[35mCREATE DATABASE "test" ENCODING = 'utf8'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (0.7ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.2ms)
+EmailMailer#contact_email: processed outbound mail in 8.2ms
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  Rendering email_mailer/contact_email.html.erb within layouts/mailer
+  Rendered email_mailer/contact_email.html.erb within layouts/mailer (0.1ms)
+  Rendering email_mailer/contact_email.text.erb within layouts/mailer
+  Rendered email_mailer/contact_email.text.erb within layouts/mailer (0.0ms)
+EmailMailer#contact_email: processed outbound mail in 1.9ms
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
