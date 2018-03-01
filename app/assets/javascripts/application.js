@@ -10,9 +10,11 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require_tree .
 //= require jquery
-//= require jquery_ujs
-//= require rails-ujs
-//= require parsley
 //= require turbolinks
+//= require jquery_ujs
+//= require parsley
+//= require rails-ujs
+//= require calendar/fullcalendar.js
+//= require calendar/fullcalendar.min.js
+//= require_tree .
