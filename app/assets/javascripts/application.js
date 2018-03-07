@@ -13,8 +13,11 @@
 //= require jquery
 //= require turbolinks
 //= require jquery_ujs
+//= require moment
+//= require moment/pt-br.js
 //= require parsley
 //= require rails-ujs
-//= require calendar/fullcalendar.js
-//= require calendar/fullcalendar.min.js
+//= require fullcalendar
+//= require fullcalendar/lang/pt-br.js
+//= require fullcalendar/gcal
 //= require_tree .

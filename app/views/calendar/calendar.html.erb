@@ -1,7 +1,6 @@
 <% provide(:title, "Calendário Geral") %>
 <% content_for :scripts do %>
 	<!--FullCalendar-->
-	<% javascript_include_tag "/calendar/fullcalendar.min.js" %>
 	<script type="text/javascript">
 		
 		$(document).on('turbolinks:load', function ready()
@@ -87,7 +86,11 @@
 					events is the main option for calendar.
 					for demo we have added predefined events in json object.
 				*/
+				googleCalendarApiKey: 'AIzaSyCZFN6gl71lNqIKVao1g8o6In_8zF-IuqQ',
 				eventSources: [
+				{
+					googleCalendarId: 'kh60tatpjasibp4fl6i3lk06sc@group.calendar.google.com'
+				},
 				{
 					events: [
                     /* perfil 1 */
@@ -506,10 +509,7 @@
                 ],
                     backgroundColor: '#3bb273',
                     borderColor: '#ffffff'
-                },
-
-                
-                ]
+                }]
 			});
   			//#26B99A
   			//#9B59B6
@@ -533,25 +533,6 @@
 			text-align: center;
 			font-size: 14px;
 			font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
-		}
-		#calendar
-		{
-			width: 900px;
-			margin: 0 auto;
-			z-index: 2;
-		}
-		.background{
-			background-image: url("logo.png");
-            background-size: cover;
-            /*background-position: absolute;*/
-            /*background-size: 100% 100%; 
-            display: block;
-			height: 900px;
-            width: 900px;
-			left: 0;
-			right: 0;
-            z-index: 1;*/
-            opacity: 0.2;
 		}
 	</style>
 <% end %>
