@@ -16,10 +16,11 @@ RSpec.describe User, type: :model do
   end
 
   it "email must be in a valid format" do
-  	expect(user.email ==~ /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/).to be 0
+  	expect(user.email ==~ /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/).to be false
   end
 
   it "email must be unique" do
+  	user.save
   	duplicate_user = user.dup
   	duplicate_user.save
   	expect(duplicate_user.valid?).to be false
