@@ -1,29 +1,31 @@
 class UsersController < ApplicationController
 	before_action :set_user, only: [:show, :edit, :update, :destroy]
 
+	def index
+		@users = User.all
+	end
+
 	def new
 		@user = User.new
 	end
 
 	def create
 		@user = User.new(user_params)
-		if @user.save
-			flash[:notice] = "User created"
+		if @user.save(user_params)
+			render "index"
+			# redirect_to @user
 		else
-			flash[:notice] = "User not created"
+			render "new"
 		end
-
-		render "index"
 	end
 
-	def index
-		@users = User.all
+	def show
 	end
 
 	def destroy
-		@user.destroy
-
-		render "index"
+		if @user.destroy
+			render "index"
+		end
 	end
 
 	private

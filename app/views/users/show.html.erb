@@ -1,0 +1,23 @@
+<% provide(:title, @user.name) %>
+
+<h1><center><%= @user.name %></center></h1>
+
+<table>
+  <thead>
+    <tr>
+      <td>Nome</td>
+      <td>Login</td>
+      <td>Email</td>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td><%= @user.name %></td>
+      <td><%= @user.login %></td>
+      <td><%= @user.email %></td>
+    </tr>
+  </tbody>
+</table>
+
+<%= link_to 'Back', users_path %>
