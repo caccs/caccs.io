@@ -1,26 +1,22 @@
 class UsersController < ApplicationController
-	# Acho que não vai nem chegar a entrar aqui
+	def user_params
+		params.require(:user).permit(:name, :login, :email, :password, :password_confirmation)
+	end
+
 	def new
 		@user = User.new
 	end
 
-	# Acho que não vai nem chegar a entrar aqui
 	def create
-		@user = User.new(params[:user])
-		if @user.save
-			flash[:notice] = "You signed up successfully"
-			flash[:color]= "valid"
-		else
-			flash[:notice] = "Won't sign up"
-			flash[:color]= "invalid"
+		@user = User.new(user_params)
+		if !@user.save
+			flash[:notice] = "Problem signing up"
 		end
 
 		render "new"
 	end
 
-	def update
-	end
-
-	def delete
+	def index
+		@users = User.all
 	end
 end

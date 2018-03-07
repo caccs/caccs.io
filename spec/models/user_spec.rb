@@ -35,12 +35,4 @@ RSpec.describe User, type: :model do
     user.password = user.password_confirmation = "a" * 5
     expect(user.valid?).to be false
   end
-
-  # Gotta fix this test
-  # it "email should be saved as lower-case" do
-  #   mixed_case_email = "JoStA@ExAMPle.CoM"
-  #   user.email = mixed_case_email
-  #   user.save
-  #   expect(user.reload.email).to eq(mixed_case_email.downcase)
-  # end
 end
