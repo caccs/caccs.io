@@ -28,6 +28,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.7'
   gem 'rspec', '~> 3.7'
   gem 'rspec_junit_formatter'
+  gem 'rails-controller-testing'
 end
 
 group :development do

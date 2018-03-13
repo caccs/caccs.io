@@ -15,6 +15,7 @@
 //= require jquery_ujs
 //= require moment
 //= require moment/pt-br.js
+//= require bootstrap
 //= require parsley
 //= require rails-ujs
 //= require fullcalendar

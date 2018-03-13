@@ -1,8 +1,10 @@
 class UsersController < ApplicationController
 	before_action :set_user, only: [:show, :edit, :update, :destroy]
+	before_action :reload, only: [:index, :create, :destroy]
+	before_action :permission
 
 	def index
-		@users = User.all
+		reload
 	end
 
 	def new
@@ -12,10 +14,9 @@ class UsersController < ApplicationController
 	def create
 		@user = User.new(user_params)
 		if @user.save(user_params)
-			render "index"
-			# redirect_to @user
+			render 'index'
 		else
-			render "new"
+			render 'new'
 		end
 	end
 
@@ -24,7 +25,7 @@ class UsersController < ApplicationController
 
 	def destroy
 		if @user.destroy
-			render "index"
+			render 'index'
 		end
 	end
 
@@ -34,6 +35,16 @@ class UsersController < ApplicationController
 		end
 
 		def set_user
-	      @user = User.find(params[:id])
+	      	@user = User.find(params[:id])
+	    end
+
+	    def reload
+	    	@users = User.all
+	    end
+
+	    def permission
+	    	if !logged_in?
+	    		render :file => 'public/401'
+	    	end
 	    end
 end
