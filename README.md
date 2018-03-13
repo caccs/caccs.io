@@ -29,3 +29,4 @@ http://caccs-lendario.herokuapp.com/
 | Added mailing to Contact Page | 1.0.2 | 27/02/2018 |
 | Added About Page | 1.0.3 | 03/03/2018 |
 | Added User Model and Controller | 1.0.4 | 13/03/2018 |
+| Added Login Screen and Session Controller | 1.0.5 | 13/03/2018 |
