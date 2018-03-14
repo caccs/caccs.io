@@ -1,8 +1,10 @@
 development:
   adapter: postgresql
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  host: db
+  username: docker
+  password: docker
   timeout: 5000
-  database: development
 
 test:
   adapter: postgresql
