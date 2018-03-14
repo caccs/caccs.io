@@ -3,6 +3,22 @@
 ---
 Projeto do site do Centro Acadêmico Pata do Bisão com calendário de datas de atividades universitárias e formulários para avaliação de disciplinas. Este projeto têm como intuito concentrar as informações de todas as atividades de interesse dos alunos.
 
+## Utilizando com Docker
+---
+Construa a imagem:
+```bash
+$ docker-compose build
+```
+Migre a base de dados
+```bash
+$ docker-compose run web rails db:migrate
+```
+Execute a aplicação pelo Docker
+```bash
+$ docker-compose up
+```
+Acesse a aplicação com o seu browser favorito!
+
 ### Como Contribuir:
 ---
 1. Fork!
