@@ -40,12 +40,14 @@
 
           <div class="clearfix"></div>
 
-          <div style="margin-top: 1em"><center>
+          <center>
+          <div style="margin-top: 1em">
               <%= link_to new_user_path, :method => :get, :class => 'btn btn-success btn-xs', 'data-toggle' => 'tooltip', :title => 'Cadastra um novo usuário', 'id' => 'grant-access-btn' do %>
                   <i class="fa fa-plus-square"></i>
               <% end %>
-            </center>
           </div>
+          <%= paginate @users %>
+          </center>
         </div>
       </div>
     </div>

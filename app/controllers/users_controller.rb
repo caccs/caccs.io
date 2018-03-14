@@ -40,7 +40,7 @@ class UsersController < ApplicationController
 	    end
 
 	    def reload
-	    	@users = User.all
+	    	@users = User.order(:name).page params[:page]
 	    end
 
 	    def permission
