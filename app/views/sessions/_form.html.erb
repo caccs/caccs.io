@@ -1,0 +1,17 @@
+<%= form_for(:session, url: login_path) do |form| %>
+
+  <div class="field">
+    <%= form.label :login %>
+    <%= form.text_field :login, class: 'form-control' %>
+  </div>
+
+  <div class="field">
+    <%= form.label :password %>
+    <%= form.password_field :password, class: 'form-control' %>
+  </div>
+
+  <div class="actions">
+    </br>
+    <%= form.submit "Log in", class: "btn btn-primary" %>
+  </div>
+<% end %>

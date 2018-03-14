@@ -1,16 +1,22 @@
-<div class="container" style="background:gray;border-radius:10px;">
-	<div class="container" align="left" style="padding:16px;">
-			<%= form_tag("/form", method: "post") do %>
-			  <%= label_tag(:name, "Nome:") %>
-			  <%= text_field(:person, :name) %>
-			  </p>
-			  <%= label_tag(:email, "Email:") %>
-			  <%= email_field(:person, :email) %>
-			  </p>
-			  <%= label_tag(:message, "Mensagem:") %>
-			  <%= text_field(:person, :message) %>
-			  </p>
-			  <%= submit_tag("Enviar") %>
-			<% end %>
+<%= form_tag("/form", method: "post") do %>
+
+	<div class="field">
+		<%= label_tag(:name, "Nome") %>
+		<%= text_field(:person, :name, class: 'form-control') %>
 	</div>
-</div>
+
+	<div class="field">
+		<%= label_tag(:email, "Email") %>
+		<%= email_field(:person, :email, class: 'form-control') %>
+	</div>
+
+	<div class="field">
+		<%= label_tag(:message, "Mensagem") %>
+		<%= text_field(:person, :message, class: 'form-control') %>
+	</div>
+
+	<div class="actions">
+		</br>
+  		<%= submit_tag("Enviar", class: "btn btn-primary") %>
+  	</div>
+<% end %>
