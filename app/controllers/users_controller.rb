@@ -14,9 +14,9 @@ class UsersController < ApplicationController
 	def create
 		@user = User.new(user_params)
 		if @user.save(user_params)
-			render 'index'
+			redirect_to users_path
 		else
-			render 'new'
+			redirect_to new_user_path
 		end
 	end
 
@@ -25,7 +25,8 @@ class UsersController < ApplicationController
 
 	def destroy
 		if @user.destroy
-			render 'index'
+			@user = nil
+			redirect_to users_path
 		end
 	end
 
