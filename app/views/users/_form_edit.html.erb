@@ -1,0 +1,33 @@
+<%= form_for @user, {action: "edit"} do |form| %>
+  <%= render 'shared/error_messages' %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, class: 'form-control', :value => @user.name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :login %>
+    <%= form.text_field :login, class: 'form-control', :value => @user.login %>
+  </div>
+
+  <div class="field">
+    <%= form.label :email %>
+    <%= form.email_field :email, class: 'form-control', :value => @user.email %>
+  </div>
+
+  <div class="field">
+    <%= form.label :password %>
+    <%= form.password_field :password, class: 'form-control' %>
+  </div>
+
+  <div class="field">
+    <%= form.label :password_confirmation %>
+    <%= form.password_field :password_confirmation, class: 'form-control' %>
+  </div>
+
+  <div class="actions">
+    </br>
+    <%= form.submit "Editar", class: "btn btn-primary" %>
+  </div>
+<% end %>
