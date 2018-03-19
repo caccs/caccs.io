@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
 	before_action :set_user, only: [:show, :edit, :update, :destroy]
-	before_action :reload, only: [:index, :create, :destroy]
+	before_action :reload, only: [:index, :create, :destroy, :update]
 	before_action :permission
 
 	def index
@@ -14,9 +14,9 @@ class UsersController < ApplicationController
 	def create
 		@user = User.new(user_params)
 		if @user.save(user_params)
-			render 'index'
+			redirect_to users_path
 		else
-			render 'new'
+			redirect_to new_user_path
 		end
 	end
 
@@ -25,8 +25,24 @@ class UsersController < ApplicationController
 
 	def destroy
 		if @user.destroy
-			render 'index'
+			@user = nil
+			redirect_to users_path
 		end
+	end
+
+	def edit
+		@user = User.find(params[:id])
+	end
+
+	def update
+	    @user = User.find(params[:id])
+	    if @user = @user.update_attributes(user_params)
+	    	flash[:success] = "Profile atualizado com sucesso"
+    		redirect_to users_path
+	    else
+	    	flash[:danger] = "Problema com atualização encontrada"
+	    	redirect_to edit_user_path
+	    end
 	end
 
 	private
@@ -39,7 +55,7 @@ class UsersController < ApplicationController
 	    end
 
 	    def reload
-	    	@users = User.all
+	    	@users = User.order(:name).page params[:page]
 	    end
 
 	    def permission

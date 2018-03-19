@@ -11,11 +11,11 @@
 // about supported directives.
 //
 //= require jquery
-//= require turbolinks
 //= require jquery_ujs
+//= require bootstrap
+//= require turbolinks
 //= require moment
 //= require moment/pt-br.js
-//= require bootstrap
 //= require parsley
 //= require rails-ujs
 //= require fullcalendar

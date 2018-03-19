@@ -1,5 +1,5 @@
 <% provide(:title, @user.name) %>
-
+<!-- Would be wise to redo this view -->
 <h1><center><%= @user.name %></center></h1>
 
 <table>
@@ -20,4 +20,5 @@
   </tbody>
 </table>
 
+<%= link_to 'Edit', edit_user_path %>
 <%= link_to 'Back', users_path %>
