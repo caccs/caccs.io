@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
 	before_action :set_user, only: [:show, :edit, :update, :destroy]
-	before_action :reload, only: [:index, :create, :destroy]
+	before_action :reload, only: [:index, :create, :destroy, :update]
 	before_action :permission
 
 	def index
@@ -35,7 +35,14 @@ class UsersController < ApplicationController
 	end
 
 	def update
-
+	    @user = User.find(params[:id])
+	    if @user = @user.update_attributes(user_params)
+	    	flash[:success] = "Profile atualizado com sucesso"
+    		redirect_to users_path
+	    else
+	    	flash[:danger] = "Problema com atualização encontrada"
+	    	redirect_to edit_user_path
+	    end
 	end
 
 	private
