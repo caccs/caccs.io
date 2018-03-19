@@ -8,6 +8,11 @@ $gray-medium-light: #eaeaea;
 
 body {
   padding-top: 60px;
+  font-family: 'Droid Sans', serif;
+}
+
+nav {
+  font-size: 1.0em;
 }
 
 section {
@@ -53,7 +58,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.2em;
+  font-size: 1.4em;
   letter-spacing: -1px;
   margin-bottom: 30px;
   text-align: center;
@@ -122,4 +127,33 @@ footer {
   #session_remember_me {
     width: auto;
     margin-left: 0;
+  }
+
+  .row-info{
+    margin-top: 0.5em;
+  }
+  #symbol_access{
+    font-size: 20px;
+    text-align: center;
+    .button_to{
+      display: inline-block;
+      margin-left: 5px;
+    }
+  }
+  #access-authorized{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    background: rgba(0,0,0, 0.5);
+  }
+  #access-authorized-inside{
+    position: fixed;
+    height: 400px;
+    width: 70%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -30%;
+    margin-top: -200px;
   }
