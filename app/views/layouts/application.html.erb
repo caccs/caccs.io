@@ -2,7 +2,7 @@
 <html>
   <head>
     <title><%= full_title(yield(:title)) %></title>
-    <%= stylesheet_link_tag '//fonts.googleapis.com/css?family=Droid Sans', 'application.css' %>
+    <%= stylesheet_link_tag '//fonts.googleapis.com/css?family=Droid Sans', :media => 'all' %>
     <%= render 'layouts/rails_default' %>
     <%= render 'layouts/shim' %>
     <%= yield :scripts %>

@@ -41244,3 +41244,58 @@ Processing by UsersController#index as HTML
 Completed 200 OK in 71ms (Views: 53.9ms | ActiveRecord: 5.2ms)
 
 
+Started GET "/users" for 127.0.0.1 at 2018-03-19 12:21:04 -0300
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."name" ASC LIMIT $1 OFFSET $2[0m  [["LIMIT", 25], ["OFFSET", 0]]
+  Rendered users/index.html.erb within layouts/application (5.6ms)
+Completed 500 Internal Server Error in 362ms (ActiveRecord: 3.8ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `all' for #<#<Class:0x007f5248b1ccd0>:0x007f5248b290e8>):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag '//fonts.googleapis.com/css?family=Droid Sans', media: all %>
+    6:     <%= render 'layouts/rails_default' %>
+    7:     <%= render 'layouts/shim' %>
+    8:     <%= yield :scripts %>
+  
+app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2917040392743239146_69995691919620'
+Started GET "/users" for 127.0.0.1 at 2018-03-19 12:22:30 -0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."name" ASC LIMIT $1 OFFSET $2[0m  [["LIMIT", 25], ["OFFSET", 0]]
+  Rendered users/index.html.erb within layouts/application (7.4ms)
+Completed 500 Internal Server Error in 444ms (ActiveRecord: 4.7ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `all' for #<#<Class:0x007f5248b1ccd0>:0x007f5249cddc80>):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag '//fonts.googleapis.com/css?family=Droid Sans', :media => all %>
+    6:     <%= render 'layouts/rails_default' %>
+    7:     <%= render 'layouts/shim' %>
+    8:     <%= yield :scripts %>
+  
+app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2917040392743239146_69995693894660'
+Started GET "/users" for 127.0.0.1 at 2018-03-19 12:22:53 -0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."name" ASC LIMIT $1 OFFSET $2[0m  [["LIMIT", 25], ["OFFSET", 0]]
+  Rendered users/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_rails_default.html.erb (339.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (2.8ms)
+  Rendered layouts/_show.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 359ms (Views: 355.6ms | ActiveRecord: 0.8ms)
+
+
