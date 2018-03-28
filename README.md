@@ -31,3 +31,4 @@ http://caccs-lendario.herokuapp.com/
 | Added User Model and Controller | 1.0.4 | 13/03/2018 |
 | Added Login Screen and Session Controller | 1.0.5 | 13/03/2018 |
 | Refactored forms, auth and Front | 1.0.6 | 19/03/2018 |
+| Refactored some CSS and added new Font | 1.0.7 | 28/03/2018 |
