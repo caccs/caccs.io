@@ -44560,3 +44560,42 @@ Processing by CalendarController#calendar as HTML
 Completed 200 OK in 76ms (Views: 74.4ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-04-19 15:08:35 -0300
+  [1m[35m (33.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_rails_default.html.erb (3725.1ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  [1m[36mUser Load (44.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (138.1ms)
+  Rendered layouts/_show.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.6ms)
+Completed 200 OK in 3894ms (Views: 3786.3ms | ActiveRecord: 99.4ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2018-04-19 15:08:58 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (1463.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (3.1ms)
+  Rendered layouts/_show.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 1477ms (Views: 1475.4ms | ActiveRecord: 0.2ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6643483464595264770)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateEvents (20180419181310)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (538.1ms)[0m  [1m[35mCREATE TABLE "events" ("id" bigserial primary key, "title" character varying, "semester" integer, "start" timestamp, "end" timestamp, "allday" boolean, "repeating" integer, "url" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180419181310"]]
+  [1m[35m (54.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (42.9ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6643483464595264770)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
