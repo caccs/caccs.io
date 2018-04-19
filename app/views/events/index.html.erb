@@ -1,0 +1,60 @@
+<% provide(:title, "Lista de eventos") %>
+<% provide(:modelo, "event") %>
+
+<div class="right_col" role="main">
+  <div class="">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="x_panel">
+          <div class="x_title">
+            <h1><center>Lista de Eventos</center></h1>
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-12" align="left">
+            <div class="col-xs-3 col-sm-3"><strong>Título</strong></div>
+            <div class="col-xs-2 col-sm-2"><strong>Início</strong></div>
+            <div class="col-xs-2 col-sm-2"><strong>Fim</strong></div>
+            <div class="col-xs-2 col-sm-2"><strong>Tipo</strong></div>
+            <div class="col-xs-1 col-sm-1"><strong>AD?</strong></div>
+            <div class="col-xs-2 col-sm-2"><strong><center>Ações</center></strong></div>
+          </div>
+
+          <div class="clearfix"></div>
+
+          <% unless @event.nil? %>
+            <% @event.each do |ev| %>
+              <div class="row-info col-xs-12 col-sm-12 col-md-12" align="left">
+                <div class="col-xs-3 col-sm-3"><%= ev.title %></div>
+                <div class="col-xs-2 col-sm-2"><%= ev.start %></div>
+                <div class="col-xs-2 col-sm-2"><%= ev.end %></div>
+                <div class="col-xs-2 col-sm-2"><%= ev.semester %></div>
+                <div class="col-xs-1 col-sm-1"><%= check_box_tag 'ad', '1', ev.allday, disabled: true %></div>
+                <div class="col-xs-2 col-sm-2" id="symbol_access" >
+                  <%= button_to event_path(ev.id), :method => :get, :class => 'btn btn-success btn-sm', 'data-toggle' => 'tooltip', :title => 'Visualizar', 'id' => 'view-user-btn' do %>
+                  <i class="fa fa-eye"></i>
+                  <% end %>
+                  <%= button_to event_path(ev.id), :method => :delete, :class => 'btn btn-danger btn-sm', 'data-toggle' => 'tooltip', :title => 'Remover', data: { confirm: "Você tem certeza?" }, 'id' => 'remove-user-btn' do %>
+                    <i class="fa fa-minus"></i>
+                  <% end %>
+                </div>
+              </div>
+            <% end %>
+          <% end %>
+
+          <div class="clearfix"></div>
+
+          <center>
+          <div style="margin-top: 1em">
+              <%= link_to new_event_path, :method => :get, :class => 'btn btn-success btn-xs', 'data-toggle' => 'tooltip', :title => 'Cadastra um novo usuário', 'id' => 'grant-access-btn' do %>
+                  <i class="fa fa-plus-square"></i>
+              <% end %>
+          </div>
+          <% unless @event.nil? %>
+            <%= paginate @event %>
+          <% end %>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

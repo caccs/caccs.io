@@ -1,0 +1,45 @@
+<%= form_for @event do |form| %>
+  <%= render 'shared/error_messages' %>
+
+  <div class="field">
+    <%= form.label :title, 'Título' %>
+    <%= form.text_field :title, class: 'form-control', :value => @event.title %>
+  </div>
+
+  <div class="field">
+    <%= form.label :semester, 'Tipo' %>
+    <%= form.text_field :semester, class: 'form-control', :value => @event.semester %>
+  </div>
+
+  <div class="field">
+    <%= form.label :url, 'URL' %>
+    <%= form.text_field :url, class: 'form-control', :value => @event.url %>
+  </div>
+
+  <div class="field">
+    <%= form.label :start, 'Data início' %>
+    <%= form.text_field :start, id: 'datepickerstart', class: 'form-control', :value => @event.start %>
+  </div>
+
+  <div class="field">
+    <%= form.label :end, 'Data fim' %>
+    <%= form.text_field :end, id: 'datepickerend', class: 'form-control', :value => @event.end %>
+  </div>
+
+  <div class="field">
+    <%= form.label :repeating, 'Repetindo' %>
+    <%= form.text_field :repeating, class: 'form-control', :value => @event.repeating %>
+  </div>
+
+  <div class="field">
+    <%= form.check_box :allday, 'style': 'width: auto;' %>
+    <%= form.label :allday, 'Dia inteiro', 'style': 'display: inline-block;' %>
+  </div>
+
+  <div class="actions">
+    </br>
+    <%= form.submit yield(:button_text), class: "btn btn-primary" %>
+  </div>
+
+  <%= javascript_include_tag 'datePicker/datePicker' %>
+<% end %>

@@ -16,16 +16,14 @@ class UsersController < ApplicationController
     if @user.save(user_params)
       redirect_to users_path
     else
-      redirect_to new_user_path
+      render new_user_path
     end
   end
 
-  def show
-  end
+  def show; end
 
   def destroy
-    if @user.destroy
-      @user = nil
+    @user = nil if @user.destroy do
       redirect_to users_path
     end
   end
@@ -48,7 +46,11 @@ class UsersController < ApplicationController
   private
 
   def user_params
-    params.require(:user).permit(:name, :login, :email, :password, :password_confirmation)
+    params.require(:user).permit(:name,
+                                 :login,
+                                 :email,
+                                 :password,
+                                 :password_confirmation)
   end
 
   def set_user
@@ -60,9 +62,6 @@ class UsersController < ApplicationController
   end
 
   def permission
-    if !logged_in?
-      render :file => 'public/401'
-    end
+    render file: 'public/401' unless logged_in?
   end
-
 end

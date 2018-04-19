@@ -16,6 +16,7 @@
 //= require turbolinks
 //= require moment
 //= require moment/pt-br.js
+//= require bootstrap-datetimepicker
 //= require parsley
 //= require rails-ujs
 //= require fullcalendar
