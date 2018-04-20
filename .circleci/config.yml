@@ -84,11 +84,5 @@ jobs:
             bundle exec rake assets:precompile
             bundle exec danger
 
-      # - run:
-      #     name: Store artifacts
-      #     command: |
-      #       mkdir -p tmp/test_results
-      #       cp -R coverage/* tmp/test_results
-
       - store_artifacts:
           path: tmp/test_results
