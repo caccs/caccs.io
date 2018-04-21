@@ -6,9 +6,13 @@
     <%= form.text_field :title, class: 'form-control', :value => @event.title %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :semester, 'Tipo' %>
-    <%= form.text_field :semester, class: 'form-control', :value => @event.semester %>
+    <select class="form-control" id=<%= :semester %> value=<%= @event.semester %>>
+      <% @event.print_semester.each do |valor| %>
+        <option><%= valor %></option>
+      <% end %>
+    </select>
   </div>
 
   <div class="field">

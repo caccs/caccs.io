@@ -17,4 +17,9 @@ class Event < ApplicationRecord
                                 after_message: ' deve ser após start' }
   validates :url, format: { with: VALID_SITE_REGEX,
                             allow_blank: true }
+
+  def print_semester
+    ['Extra', 'Perfil 1', 'Perfil 2', 'Perfil 3', 'Perfil 4',
+     'Perfil 5', 'Perfil 6', 'Perfil 7', 'Perfil 8', 'Optativa', 'Eventos']
+  end
 end
