@@ -53091,3 +53091,69 @@ NoMethodError (undefined method `print_semester' for nil:NilClass):
   
 app/controllers/events_controller.rb:55:in `event_params'
 app/controllers/events_controller.rb:14:in `create'
+Started GET "/" for 127.0.0.1 at 2018-05-02 10:19:09 -0300
+  [1m[35m (34.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (35.9ms)
+Started GET "/" for 127.0.0.1 at 2018-05-02 10:19:12 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_rails_default.html.erb (1054.0ms)
+  Rendered layouts/_rails_default.html.erb (2694.0ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (48.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mUser Load (48.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (187.1ms)
+  Rendered layouts/_header.html.erb (183.3ms)
+  Rendered layouts/_show.html.erb (0.5ms)
+  Rendered layouts/_show.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 1291ms (Views: 1158.2ms | ActiveRecord: 115.7ms)
+
+
+Completed 200 OK in 3034ms (Views: 2960.2ms | ActiveRecord: 65.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-02 10:19:18 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (49.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (2.9ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 62ms (Views: 60.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-02 10:19:21 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_rails_default.html.erb (61.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (2.9ms)
+  Rendered layouts/_show.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 77ms (Views: 75.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-02 10:19:52 -0300
+Processing by CalendarController#calendar as HTML
+  Rendering calendar/calendar.html.erb within layouts/application
+  Rendered calendar/calendar.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_rails_default.html.erb (65.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (2.6ms)
+  Rendered layouts/_show.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 80ms (Views: 78.6ms | ActiveRecord: 0.2ms)
+
+
