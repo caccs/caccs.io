@@ -6,12 +6,16 @@ $gray-medium-light: #eaeaea;
 
 /* universal */
 
-body {
-  padding-top: 60px;
+@font-face {
   font-family: 'Droid Sans', serif;
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/droidsans/v8/SlGVmQWMvZQIdix7AFxXkHNSbQ.woff2) format('woff2');
+  src: font-url('fonts/DroidSans.ttf') format('truetype');
+}
+
+body {
+  padding-top: 60px;
+  font-family: 'Droid Sans', serif;
 }
 
 nav {

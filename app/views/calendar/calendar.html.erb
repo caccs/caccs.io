@@ -78,18 +78,80 @@
 					}
 					calendar.fullCalendar('unselect');
 				},
-				/*
-					editable: true allow user to edit events.
-				*/
 				editable: false,
-				/*
-					events is the main option for calendar.
-					for demo we have added predefined events in json object.
-				*/
+
 				googleCalendarApiKey: 'AIzaSyCZFN6gl71lNqIKVao1g8o6In_8zF-IuqQ',
 				eventSources: [
+				/* perfil 1 */
 				{
-					googleCalendarId: 'kh60tatpjasibp4fl6i3lk06sc@group.calendar.google.com'
+					googleCalendarId: 'fvcu8l5eps6ba7svmpj7jrn6qc@group.calendar.google.com',
+					backgroundColor: '#4d9de0',
+                    borderColor: '#ffffff'
+				},
+				/* perfil 2 */
+				{
+					googleCalendarId: '0kraa2ase0ntl9uvqtikj9pajc@group.calendar.google.com',
+					backgroundColor: '#B39C4D',
+                    borderColor: '#ffffff'
+				},
+				/* perfil 3 */
+				{
+					googleCalendarId: 'qndtjlpbv58q7ibhi2c1fhbmqo@group.calendar.google.com',
+					backgroundColor: '#e15554',
+                    borderColor: '#ffffff'
+				},
+				/* perfil 4 */
+				{
+					googleCalendarId: 'seit8i9mrrjoie1n5ad1n35fbo@group.calendar.google.com',
+					backgroundColor: '#768948',
+                    borderColor: '#ffffff'
+				},
+				/* perfil 5 */
+				{
+					googleCalendarId: 's6crri9h5v7u691lhuguf7pr1c@group.calendar.google.com',
+					backgroundColor: '#0B3954',
+                    borderColor: '#ffffff'
+				},
+				/* perfil 6 */
+				{
+					googleCalendarId: 'ut2qqh8ttp9s625qbvkqrppcuk@group.calendar.google.com',
+					backgroundColor: '#E0BE36',
+                    borderColor: '#ffffff'
+				},
+				/* perfil 7 */
+				{
+					googleCalendarId: 'uirbj31u46f5b8467lu7andiac@group.calendar.google.com',
+					backgroundColor: '#7768ae',
+                    borderColor: '#ffffff'
+				},
+				/* perfil 8 */
+				{
+					googleCalendarId: 'int5tpvaebhotn0deg4qrhlo48@group.calendar.google.com',
+					backgroundColor: '#8F9491',
+                    borderColor: '#ffffff'
+				},
+				/* Optativas */
+				{
+					googleCalendarId: 'g6nme34mnju57h0n23vi7ob26c@group.calendar.google.com',
+					backgroundColor: '#483C46',
+                    borderColor: '#ffffff'
+				},
+				/* Extras */
+				{
+					googleCalendarId: 'jbescg8kvlukebb34d3reup2ug@group.calendar.google.com',
+					backgroundColor: '#483C46',
+                    borderColor: '#ffffff'
+				},
+				/* Eventos */
+				{
+					googleCalendarId: 'lnmdgogjiqie9itvpaasn4vp6g@group.calendar.google.com',
+					backgroundColor: '#BCA3AC',
+                    borderColor: '#ffffff'
+				},/* Feriados */
+				{
+					googleCalendarId: 'pt.brazilian#holiday@group.v.calendar.google.com',
+					backgroundColor: '#9BE564',
+                    borderColor: '#ffffff'
 				},
 				{
 					events: [
@@ -522,19 +584,15 @@
 	<style type="text/css">
 		body
 		{
-			margin-top: 20px;
 			text-align: center;
 			font-size: 14px;
-			font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
 		}
 		footer
 		{
-            margin-top: 40px;
 			text-align: center;
 			font-size: 14px;
-			font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
 		}
 	</style>
 <% end %>
 
-<div id='calendar'></div>
+<div id="calendar" style="margin-top: 20px;"></div>

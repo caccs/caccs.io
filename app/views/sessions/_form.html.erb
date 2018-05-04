@@ -1,16 +1,16 @@
 <%= form_for(:session, url: login_path) do |form| %>
 
-  <div class="field">
+  <div class="field" align="left">
     <%= form.label :login %>
     <%= form.text_field :login, class: 'form-control' %>
   </div>
 
-  <div class="field">
+  <div class="field" align="left">
     <%= form.label :password %>
     <%= form.password_field :password, class: 'form-control' %>
   </div>
 
-  <%= form.label :remember_me, class: "checkbox inline" do %>
+  <%= form.label :remember_me, class: "checkbox inline", "align" => "left" do %>
     <%= form.check_box :remember_me %>
     <span>Remember me on this computer</span>
   <% end %>
