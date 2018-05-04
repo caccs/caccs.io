@@ -1,12 +1,12 @@
 version: '3'
 services:
   db:
-    image: postgres
+    image: postgres:9.4.5
     environment:
-      - POSTGRES_USER=docker
-      - POSTGRES_PASSWORD=docker
-    volumes:
-      - ./tmp/db:/var/lib/postgresql/data
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - '5432:5432'
   web:
     build: .
     command: bundle exec rails s -p 3000 -b '0.0.0.0'
