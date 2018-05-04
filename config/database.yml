@@ -1,19 +1,19 @@
-development:
+default: &default
   adapter: postgresql
+  encoding: unicode
+  user: postgres
+  password: postgres
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   host: db
-  username: docker
-  password: docker
-  timeout: 5000
+
+development:
+  <<: *default
+  database: development
 
 test:
-  adapter: postgresql
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  timeout: 5000
+  <<: *default
   database: test
 
 production:
-  adapter: postgresql
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  timeout: 5000
+  <<: *default
   database: production
