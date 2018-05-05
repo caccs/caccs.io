@@ -18,20 +18,22 @@
 
           <div class="clearfix"></div>
 
-          <% @users.each do |us| %>
-            <div class="row-info col-xs-12 col-sm-12 col-md-12" align="left">
-              <div class="col-xs-4 col-sm-4"><%= us.name %></div>
-              <div class="col-xs-2 col-sm-2"><%= us.login %></div>
-              <div class="col-xs-4 col-sm-4"><%= us.email %></div>
-              <div class="col-xs-2 col-sm-2" id="symbol_access" >
-                <%= button_to user_path(us.id), :method => :get, :class => 'btn btn-success btn-sm', 'data-toggle' => 'tooltip', :title => 'Visualizar', 'id' => 'view-user-btn' do %>
-                <i class="fa fa-eye"></i>
-                <% end %>
-                <%= button_to user_path(us.id), :method => :delete, :class => 'btn btn-danger btn-sm', 'data-toggle' => 'tooltip', :title => 'Remover', data: { confirm: "Você tem certeza?" }, 'id' => 'remove-user-btn' do %>
-                  <i class="fa fa-minus"></i>
-                <% end %>
+          <% unless @users.nil? %>
+            <% @users.each do |us| %>
+              <div class="row-info col-xs-12 col-sm-12 col-md-12" align="left">
+                <div class="col-xs-4 col-sm-4"><%= us.name %></div>
+                <div class="col-xs-2 col-sm-2"><%= us.login %></div>
+                <div class="col-xs-4 col-sm-4"><%= us.email %></div>
+                <div class="col-xs-2 col-sm-2" id="symbol_access" >
+                  <%= button_to user_path(us.id), :method => :get, :class => 'btn btn-success btn-sm', 'data-toggle' => 'tooltip', :title => 'Visualizar', 'id' => 'view-user-btn' do %>
+                  <i class="fa fa-eye"></i>
+                  <% end %>
+                  <%= button_to user_path(us.id), :method => :delete, :class => 'btn btn-danger btn-sm', 'data-toggle' => 'tooltip', :title => 'Remover', data: { confirm: "Você tem certeza?" }, 'id' => 'remove-user-btn' do %>
+                    <i class="fa fa-minus"></i>
+                  <% end %>
+                </div>
               </div>
-            </div>
+            <% end %>
           <% end %>
 
           <div class="clearfix"></div>
@@ -42,7 +44,9 @@
                   <i class="fa fa-plus-square"></i>
               <% end %>
           </div>
-          <%= paginate @users %>
+          <% unless @users.nil? %>
+            <%= paginate @users %>
+          <% end %>
           </center>
         </div>
       </div>

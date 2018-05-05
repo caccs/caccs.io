@@ -1,0 +1,32 @@
+<% provide(:title, @event.title) %>
+<!-- Would be wise to redo this view -->
+<div align="left">
+<h1><center><%= @event.title %></center></h1>
+
+<table>
+  <thead>
+    <tr>
+      <td>Título</td>
+      <td>Início</td>
+      <td>Fim</td>
+      <td>Tipo</td>
+      <td>Dia todo</td>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td><%= @event.title %></td>
+      <td><%= @event.start %></td>
+      <td><%= @event.end %></td>
+      <td><%= @event.tipo %></td>
+      <td><%= @event.allday %></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div align="center">
+<%= link_to 'Edit', edit_event_path %>
+<%= link_to 'Back', events_path %>
+</div>
