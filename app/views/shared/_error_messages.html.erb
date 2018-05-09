@@ -1,27 +1,27 @@
-<% @select = yield(:modelo) %>
-<% puts @select %>
-<% if @select == "user" %>
-  <% if @user.errors.any? %>
+<% modelo = yield(:modelo) %>
+<% if modelo == "user" %>
+  <% user = @user %>
+  <% if user.errors.any? %>
     <div id="error_explanation">
       <div class="alert alert-danger">
-        The form contains <%= pluralize(@user.errors.count, "error") %>.
+        The form contains <%= pluralize(user.errors.count, "error") %>.
       </div>
       <ul>
-      <% @user.errors.full_messages.each do |msg| %>
+      <% user.errors.full_messages.each do |msg| %>
         <li><%= msg %></li>
       <% end %>
       </ul>
     </div>
   <% end %>
-<% elsif @select == 'event' %>
-<% puts @event.errors.any? %>
-<% if @event.errors.any? %>
+<% elsif modelo == 'event' %>
+  <% event = @event %>
+  <% if event.errors.any? %>
     <div id="error_explanation">
       <div class="alert alert-danger">
-        The form contains <%= pluralize(@event.errors.count, "error") %>.
+        The form contains <%= pluralize(event.errors.count, "error") %>.
       </div>
       <ul>
-      <% @event.errors.full_messages.each do |msg| %>
+      <% event.errors.full_messages.each do |msg| %>
         <li><%= msg %></li>
       <% end %>
       </ul>
