@@ -1,4 +1,5 @@
 class EventsController < ApplicationController
+  before_action :set_event, only: %i[show edit update destroy]
   before_action :reload, only: %i[index create destroy update]
   before_action :permission
 
@@ -52,6 +53,10 @@ class EventsController < ApplicationController
                                   :allday,
                                   :repeating,
                                   :url)
+  end
+
+  def set_event
+    @event = Event.find(params[:id])
   end
 
   def reload

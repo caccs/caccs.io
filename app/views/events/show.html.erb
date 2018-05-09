@@ -19,8 +19,8 @@
       <td><%= @event.title %></td>
       <td><%= @event.start %></td>
       <td><%= @event.end %></td>
-      <td><%= @event.tipo %></td>
-      <td><%= @event.allday %></td>
+      <td><%= @event.print_semester[@event.semester] %></td>
+      <td><%= check_box_tag 'ad', '1', @event.allday, disabled: true %></td>
     </tr>
   </tbody>
 </table>

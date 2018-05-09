@@ -8,9 +8,9 @@
 
   <div class="form-group">
     <%= form.label :semester, 'Tipo' %>
-    <select class="form-control" id=<%= :semester %> value=<%= @event.semester %>>
-      <% @event.print_semester.each do |valor| %>
-        <option><%= valor %></option>
+    <select class="form-control" id=<%= :semester %> name='event[semester]' value=<%= @event.semester %>>
+      <% @event.print_semester.each_with_index do | valor, number | %>
+        <option value=<%= number %>><%= valor %></option>
       <% end %>
     </select>
   </div>
