@@ -37,6 +37,12 @@ jobs:
           name: Bundle Install
           command: bundle check || bundle install --path vendor/bundle
 
+      - run:
+          name: Ruby Lang
+          command: |
+            export LANG=C.UTF-8
+            ruby -e 'puts Encoding.default_external'
+
       - save_cache:
           key: v1-dependencies-{{ checksum "Gemfile.lock" }}
           paths:
