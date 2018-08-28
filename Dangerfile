@@ -11,9 +11,9 @@ MESSAGE
 
 markdown(message)
 
-warn('Still Work in Progress') if github.pr_title.include?('WIP')
+warn "Still Work in Progress" if github.pr_title.include? "WIP"
 if git.modified_files.empty? && git.added_files.empty? && git.deleted_files.empty?
-  warn('What is the point of this PR if you have not changed anything?')
+  warn "What is the point of this PR if you have not changed anything?"
 end
 
 if git.added_files.include?('db/migrate/*.rb') && !git.modified_files.include?('db/schema.rb')
