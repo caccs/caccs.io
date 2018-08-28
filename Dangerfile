@@ -12,7 +12,7 @@ MESSAGE
 markdown(message)
 
 warn "Still Work in Progress" if github.pr_title.include? "WIP"
-if git.modified_files.empty? && git.added_files.empty? && git.deleted_files.empty?
+if (git.modified_files.empty? && git.added_files.empty? && git.deleted_files.empty?)
   warn "What is the point of this PR if you have not changed anything?"
 end
 
