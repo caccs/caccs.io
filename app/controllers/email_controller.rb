@@ -1,11 +1,18 @@
+# Classe que controla o envio de Emails
 class EmailController < ApplicationController
-	def form
-		nome = params["person"]["name"].to_s
-	  	email = params["person"]["email"].to_s
-	  	mensagem = params["person"]["message"].to_s
+  def form
+    parametros = params['person']
 
-	  	EmailMailer.contact_email(nome, email, mensagem).deliver_now!
-	  	flash[:notice] = "Email enviado com sucesso!"
-	  	redirect_to contact_path
-	end
+    nome = parametros['name'].to_s
+    email = parametros['email'].to_s
+    mensagem = parametros['message'].to_s
+
+    send_mail(nome, email, mensagem)
+  end
+
+  def send_mail(nome, email, mensagem)
+    EmailMailer.contact_email(nome, email, mensagem).deliver_now!
+    flash[:notice] = 'Email enviado com sucesso!'
+    redirect_to contact_path
+  end
 end

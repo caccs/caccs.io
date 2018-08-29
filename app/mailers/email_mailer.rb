@@ -7,7 +7,10 @@ class EmailMailer < ApplicationMailer
 
     headers['X-SMTPAPI'] = '{"category": "Contato"}'
 
-    mail(to: 'grr.pride@gmail.com', from: 'grr.pride@gmail.com', reply_to: email,
-    	subject: 'Contato: ' + nome, keywords: 'Contato')
+    mail(to: 'grr.pride@gmail.com',
+         from: 'grr.pride@gmail.com',
+         reply_to: email,
+         subject: 'Contato: ' + nome,
+         keywords: 'Contato')
   end
 end
