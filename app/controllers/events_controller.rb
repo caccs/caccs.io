@@ -1,3 +1,5 @@
+# Classe que controla os Eventos (provas, trabalhos, eventos em geral)
+# relacionados ao curso
 class EventsController < ApplicationController
   before_action :set_event, only: %i[show edit update destroy]
   before_action :reload, only: %i[index create destroy update]

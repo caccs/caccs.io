@@ -1,4 +1,4 @@
-# Class that controls how we send emails
+# Classe que controla o envio de Emails
 class EmailController < ApplicationController
   def form
     parametros = params['person']
@@ -7,6 +7,10 @@ class EmailController < ApplicationController
     email = parametros['email'].to_s
     mensagem = parametros['message'].to_s
 
+    send_mail(nome, email, mensagem)
+  end
+
+  def send_mail(nome, email, mensagem)
     EmailMailer.contact_email(nome, email, mensagem).deliver_now!
     flash[:notice] = 'Email enviado com sucesso!'
     redirect_to contact_path

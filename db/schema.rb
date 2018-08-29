@@ -1,5 +1,4 @@
-# rubocop:disable StringLiterals
-# rubocop:disable NumericLiterals
+# rubocop:disable StringLiterals, NumericLiterals
 ActiveRecord::Schema.define(version: 20180419181310) do
   enable_extension "plpgsql"
 
@@ -27,5 +26,4 @@ ActiveRecord::Schema.define(version: 20180419181310) do
     t.index ["login"], name: "index_users_on_login", unique: true
   end
 end
-# rubocop:enable NumericLiterals
-# rubocop:enable StringLiterals
+# rubocop:enable StringLiterals, NumericLiterals
